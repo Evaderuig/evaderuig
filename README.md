@@ -4,6 +4,10 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 8 sept - deepdive Light & Dark theme (Vasilis)
+
+![alt text](image.png)
+
 ### 7 sept - [Werkgroep 1]
 
 1. Een digital garden is een online plek waar iemand ideeën deeld over een onderwerp dat diegene aanspreekt. Een digital garden is nooit af. Er kunnen altijd nieuwe ideeën bijkomen. Pagina's worden aan elkaar gekoppeld op basis van inhoud en onderlinge verbanden. De schrijver heeft geen authoriteit en kan fout zitten en zijn mening veranderen.
