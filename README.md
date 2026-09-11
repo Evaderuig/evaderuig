@@ -4,6 +4,10 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 10 sept - [Werkgroep 2]
+
+1. vraag 1:
+
 ### 8 sept - deepdive Light & Dark theme (Vasilis)
 
 ![alt text](image.png)
