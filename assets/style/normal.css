@@ -6,9 +6,32 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: Cormorant;
+  src: url(../type/Cormorant-VariableFont_wght.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Cormorant-Italic;
+  src: url(../type/Cormorant-Italic-VariableFont_wght.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+
 body {
   font-family: "Comic Relief", system-ui;
   background-color: Canvas;
   color: CanvasText;
   color-scheme: light dark;
+}
+
+h1 {
+  font-family: Cormorant;
+  font-size: 10em;
+  text-transform: uppercase;
 }
