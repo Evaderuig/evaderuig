@@ -4,6 +4,10 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 14 sept - [Werkgroep 4]
+
+Wat ik uit de voorbereiding haal is dat de samenleving ontzettend afhankelijk is van grote cloudbedrijven als Amazon. Als een van deze bedrijven uitvalt heeft dat grote gevolgen. Daarnaast zijn europese landen te afhankelijk van Chineese en Amerikaanse technologie bedrijven. Het is belangrijk dat Europa meer onafhankelijk wordt van buitelandse bedrijven.
+
 ### 12 sept - [Werkgroep 3]
 
 De feedback die ik vandaag van Justus heb gekregen is dat het idee van portret tekenen heel leuk en persoonlijk is. Ik moet nu gaan bedenken hoe ik het ga uitwerken in html. Hij gaf mij bijvoorbeeld het idee om de achtergrond van de webpagina een soort werkplek te maken, dat je de potloden kan zien liggen en dan de tekeningen erin plaatsen. Maar ik moet er verder nog goed over nadenken en gewoon gaan proberen.
