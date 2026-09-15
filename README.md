@@ -6,6 +6,12 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ### 14 sept - [Werkgroep 4]
 
+1. Een website wordt lelijk als hij niet responsive is, bijvoorbeeld dat alles verspringt op een mobieltje. Wat je eraan kunt doen is zorgen dat je de code ook test in mobiel formaat en aanpassingen maakt, zodat er niks verspringt. Daarnaast is een rommelige indeling niet mooi. Dit zorgt er namelijk voor dat de website niet toegangkelijk is voor bezoekers. Wat je eraan kan doen is met een duidelijke visuele hiërarchie werken. Als laatste zijn te veel animaties niet mooi. Animaties zijn leuk en interessant voor de website, maar wel met mate. Te veel animaties leidt af van de inhoud van de website. Gebruik animaties alleen wanneer ze iets toevoegen.
+
+2. De volgende stap die ik ga zetten om mijn website responsive te maken is zorgen dat hij zich goed aanpast aan verschillende scherm formaten.
+
+3.
+
 Wat ik uit de voorbereiding haal is dat de samenleving ontzettend afhankelijk is van grote cloudbedrijven als Amazon. Als een van deze bedrijven uitvalt heeft dat grote gevolgen. Daarnaast zijn europese landen te afhankelijk van Chineese en Amerikaanse technologie bedrijven. Het is belangrijk dat Europa meer onafhankelijk wordt van buitelandse bedrijven.
 
 ### 12 sept - [Werkgroep 3]
