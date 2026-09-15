@@ -39,15 +39,22 @@ html {
 
 body {
   font-family: "Rouge Script, cursive";
-  background-color: rgb(254, 254, 248);
-  color: CanvasText;
   color-scheme: light dark;
   margin: var(--whitespace-s);
 }
 
 header {
-  background-color: rgb(197, 218, 197);
+  background-image: url("../afbeeldingen/achetgrond\ wit-blauw.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: grid;
+  gap: var(--whitespace-s);
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+}
+
+section {
+  background-color: bisque;
 }
 
 main {
@@ -66,29 +73,23 @@ main {
     margin-block: var(--whitespace-s);
   }
 }
-article {
-  border: 1px solid;
-  padding: 1em;
-  border-radius: 1em;
-  border-color: rgb(180, 184, 180);
-}
 
 h1 {
   font-family: "League Script, cursive";
   font-size: 5em;
   margin: 0 0 var(--whitespace-s);
-  color: white;
+  color: rgb(14, 25, 62);
 }
 
 h2 {
   font-family: "League Script, cursive";
   font-size: 2em;
   margin: 0 0 var(--whitespace-s);
-  color: rgb(130, 158, 130);
+  color: rgb(14, 25, 62);
 }
 
 p {
   font-family: "Courier New", Courier, monospace;
   font-size: 1em;
-  color: rgb(130, 158, 130);
+  color: rgb(14, 25, 62);
 }
