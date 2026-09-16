@@ -38,7 +38,7 @@ html {
 }
 
 body {
-  font-family: "Rouge Script, cursive";
+  font-family: "Courier New", Courier, monospace;
   color-scheme: light dark;
   margin: var(--whitespace-s);
 }
@@ -49,6 +49,22 @@ nav {
   display: flex;
   padding: 20px;
   align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2em;
+  flex-wrap: wrap;
+  padding-left: 40em;
+}
+
+nav a {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  font-weight: 600;
+  gap: 1em;
 }
 
 header {
