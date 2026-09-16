@@ -43,6 +43,12 @@ body {
   margin: var(--whitespace-s);
 }
 
+nav {
+  background-color: rgb(180, 196, 219);
+  padding: 20px;
+  border-bottom: 1px solid rgb(29, 43, 92);
+}
+
 header {
   background-image: url("../afbeeldingen/achetgrond\ wit-blauw.jpg");
   background-repeat: no-repeat;
@@ -51,7 +57,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  min-height: 90vh;
+  min-height: 80vh;
   padding: 60px;
 }
 
@@ -63,7 +69,7 @@ main {
   margin: auto;
   display: flex;
   flex-direction: column;
-  background-color: antiquewhite;
+  background-color: rgb(246, 239, 230);
   align-items: center;
 
   img,
@@ -83,7 +89,15 @@ main section {
   align-items: center;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding: 60px;
-  min-height: 60vh;
+  min-height: 80vh;
+}
+
+main section:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(180, 196, 219);
+  min-height: 20vh;
 }
 
 h1 {
@@ -95,7 +109,7 @@ h1 {
 
 h2 {
   font-family: "League Script, cursive";
-  font-size: 42px;
+  font-size: 48px;
   margin: 0 0 var(--whitespace-s);
   color: rgb(29, 43, 92);
 }
@@ -108,7 +122,7 @@ p {
 
 footer {
   background-color: antiquewhite;
-  border-top: 1px solid;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 a {
