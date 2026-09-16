@@ -45,8 +45,10 @@ body {
 
 nav {
   background-color: rgb(180, 196, 219);
-  padding: 20px;
   border-bottom: 1px solid rgb(29, 43, 92);
+  display: flex;
+  padding: 20px;
+  align-items: center;
 }
 
 header {
@@ -126,8 +128,9 @@ footer {
 }
 
 a {
+  font-family: "Courier New", Courier, monospace;
   text-decoration: none;
   color: rgb(29, 43, 92);
-  font-size: 64px;
+  font-size: 36px;
   font-weight: 100;
 }
