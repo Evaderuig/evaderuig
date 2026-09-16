@@ -49,20 +49,17 @@ header {
   background-size: cover;
   background-position: center;
   display: grid;
-  gap: var(--whitespace-s);
-  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-}
-
-section {
-  background-color: bisque;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
 }
 
 main {
-  max-width: 30em;
   margin: auto;
   display: grid;
-  gap: var(--whitespace-s);
-  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-template-columns: 1fr 1fr;
+  padding: 60px;
+  gap: 1em;
+  background-color: antiquewhite;
 
   img,
   svg,
