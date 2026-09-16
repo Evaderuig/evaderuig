@@ -50,16 +50,21 @@ header {
   background-position: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1em;
+  align-items: center;
+  min-height: 90vh;
+  padding: 60px;
+}
+
+header img {
+  width: 350px;
 }
 
 main {
   margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 60px;
-  gap: 1em;
+  display: flex;
+  flex-direction: column;
   background-color: antiquewhite;
+  align-items: center;
 
   img,
   svg,
@@ -71,22 +76,37 @@ main {
   }
 }
 
+main section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 60px;
+  min-height: 60vh;
+}
+
 h1 {
   font-family: "League Script, cursive";
-  font-size: 5em;
+  font-size: 72px;
   margin: 0 0 var(--whitespace-s);
-  color: rgb(14, 25, 62);
+  color: rgb(29, 43, 92);
 }
 
 h2 {
   font-family: "League Script, cursive";
-  font-size: 2em;
+  font-size: 42px;
   margin: 0 0 var(--whitespace-s);
-  color: rgb(14, 25, 62);
+  color: rgb(29, 43, 92);
 }
 
 p {
   font-family: "Courier New", Courier, monospace;
-  font-size: 1em;
-  color: rgb(14, 25, 62);
+  font-size: 18px;
+  color: rgb(29, 43, 92);
+}
+
+footer {
+  background-color: antiquewhite;
+  border-top: 1px solid;
 }
