@@ -31,29 +31,35 @@ html {
 
 body {
   background-color: rgb(246, 239, 230);
+  font-size: var(--step-0);
+  margin: var(--whitespace-s);
 }
 
 nav {
   background-color: rgb(180, 196, 219);
   border-bottom: 1px solid rgb(29, 43, 92);
   display: flex;
-  padding: 20px;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 1em 2em;
 }
+
 nav ul {
   display: flex;
+  align-items: center;
+  gap: 1.5em;
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 2em;
-  flex-wrap: wrap;
-  padding-left: 45em;
 }
 
 nav a {
+  white-space: nowrap;
   font-family: "Courier New", Courier, monospace;
   font-size: 18px;
   font-weight: 600;
+  color: rgb(29, 43, 92);
   text-transform: uppercase;
   gap: 1em;
   text-decoration: none;
@@ -68,15 +74,8 @@ main {
   max-width: 50em;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 4em;
-  padding: 2em;
-}
-
-@media (max-width: 150px) {
-  main {
-    grid-template-columns: 1fr;
-  }
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  gap: 2em;
 }
 
 img,
@@ -96,16 +95,21 @@ h1 {
 }
 
 h2 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "League Script, cursive";
   font-size: 24px;
   color: rgb(29, 43, 92);
-  margin: 0 0 var(--whitespace-s);
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 p {
   font-family: "Courier New", Courier, monospace;
   font-size: 18px;
   color: rgb(29, 43, 92);
+}
+
+section {
+  border-bottom: 1px solid rgb(29, 43, 92);
 }
 
 figure {

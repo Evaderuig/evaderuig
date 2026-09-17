@@ -47,41 +47,49 @@ nav {
   background-color: rgb(180, 196, 219);
   border-bottom: 1px solid rgb(29, 43, 92);
   display: flex;
-  padding: 20px;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 1em 2em;
 }
+
 nav ul {
   display: flex;
+  align-items: center;
+  gap: 1.5em;
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 2em;
-  flex-wrap: wrap;
-  padding-left: 40em;
 }
 
 nav a {
+  white-space: nowrap;
   font-family: "Courier New", Courier, monospace;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   gap: 1em;
+  text-decoration: none;
 }
 
 header {
+  min-height: 80vh;
+  min-width: 30em;
   background-image: url("../afbeeldingen/achetgrond\ wit-blauw.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  gap: var(--whitespace-s);
   align-items: center;
-  min-height: 80vh;
-  padding: 60px;
+  padding: 2em;
 }
 
 header img {
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
 }
 
 main {
@@ -121,7 +129,7 @@ main section:nth-child(1) {
 
 h1 {
   font-family: "League Script, cursive";
-  font-size: 72px;
+  font-size: clamp(24px, 9vw, 48px);
   margin: 0 0 var(--whitespace-s);
   color: rgb(29, 43, 92);
 }
