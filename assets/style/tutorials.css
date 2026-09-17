@@ -89,13 +89,11 @@ main a {
   font-size: 18px;
 }
 
-main iframe {
+main section figure {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
   gap: 2em;
   align-items: center;
-  padding: 2em 1em;
-  min-height: 80vh;
 }
 
 h1,
@@ -131,4 +129,8 @@ a {
   color: rgb(29, 43, 92);
   font-size: 36px;
   font-weight: 100;
+}
+
+main section:nth-child(1) {
+  padding-bottom: 3em;
 }
