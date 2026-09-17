@@ -33,6 +33,7 @@ html {
 body {
   font-family: "Courier New", Courier, monospace;
   margin: var(--whitespace-s);
+  background-color: rgb(246, 239, 230);
 }
 
 nav {
@@ -92,8 +93,8 @@ main {
   gap: 2em;
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: (246, 239, 230);
   padding: 2em 2em;
+  min-height: 80vh;
 
   img,
   svg,
@@ -136,4 +137,10 @@ a {
   color: rgb(29, 43, 92);
   font-size: 36px;
   font-weight: 100;
+}
+
+footer {
+  background-color: antiquewhite;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 2em;
 }
