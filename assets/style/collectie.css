@@ -5,12 +5,109 @@
   font-style: normal;
 }
 
+html {
+  color-scheme: light dark;
+
+  --accent-color: deeppink;
+  --border-width: 0.1em;
+
+  --whitespace-s: 1rem;
+  --whitespace-m: calc(var(--whitespace-s) * 2);
+  --whitespace-l: calc(var(--whitespace-s) * 4);
+  --whitespace-xs: calc(var(--whitespace-s) * 0.5);
+  --factor: 1.5;
+
+  /* Do not try to write these next lines yourself! 
+	Use the fluid typgraphy calculator instead.
+	Here: https://utopia.fyi/type/calculator/
+	*/
+  --step-0: clamp(1rem, 0.9286rem + 0.3571cqi, 1.25rem);
+  --step-1: clamp(1.125rem, 0.9107rem + 1.0714cqi, 1.875rem);
+  --step-2: clamp(1.2656rem, 0.8237rem + 2.2098cqi, 2.8125rem);
+  --step-3: clamp(1.4238rem, 0.6253rem + 3.9927cqi, 4.2188rem);
+  --step-4: clamp(1.6018rem, 0.2514rem + 6.7519cqi, 6.3281rem);
+  --step-5: clamp(1.802rem, -0.3952rem + 10.9859cqi, 9.4922rem);
+}
+
 body {
   background-color: rgb(246, 239, 230);
 }
 
+nav {
+  background-color: rgb(180, 196, 219);
+  border-bottom: 1px solid rgb(29, 43, 92);
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2em;
+  flex-wrap: wrap;
+  padding-left: 45em;
+}
+
+nav a {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  gap: 1em;
+  text-decoration: none;
+}
+
 header {
+  justify-content: center;
+  padding: 3em;
+}
+
+main {
+  max-width: 50em;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4em;
+  padding: 2em;
+}
+
+@media (max-width: 150px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+img,
+svg,
+video {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  display: block;
+}
+
+h1 {
   font-family: "League Script, cursive";
   font-size: 48px;
   color: rgb(29, 43, 92);
+  margin: 0 0 var(--whitespace-s);
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  color: rgb(29, 43, 92);
+  margin: 0 0 var(--whitespace-s);
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: rgb(29, 43, 92);
+}
+
+figure {
+  margin: 0;
 }
