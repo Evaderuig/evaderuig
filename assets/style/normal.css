@@ -104,6 +104,12 @@ main section {
   min-height: 80vh;
 }
 
+@media (min-width: 700px) {
+  main section {
+    padding: 60px;
+  }
+}
+
 main section:nth-child(1) {
   display: flex;
   justify-content: center;
