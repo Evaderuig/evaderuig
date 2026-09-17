@@ -1,17 +1,4 @@
 @font-face {
-  font-family: "Comic Relief";
-  src: url(../type/ComicRelief-Regular.woff2);
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Rouge Script, cursive";
-  src: url(../type/RougeScript-Regular.ttf);
-  font-weight: 400;
-}
-
-@font-face {
   font-family: "League Script, cursive";
   src: url("../type/LeagueScript-Regular.ttf");
   font-weight: 400;
@@ -39,7 +26,6 @@ html {
 
 body {
   font-family: "Courier New", Courier, monospace;
-  color-scheme: light dark;
   margin: var(--whitespace-s);
 }
 
@@ -49,7 +35,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  row-gap: 0.5em;
   padding: 1em 2em;
 }
 
@@ -68,7 +55,6 @@ nav a {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  gap: 1em;
   text-decoration: none;
 }
 
@@ -114,7 +100,7 @@ main section {
   gap: 2em;
   align-items: center;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 60px;
+  padding: 2em 1em;
   min-height: 80vh;
 }
 
@@ -126,18 +112,26 @@ main section:nth-child(1) {
   min-height: 20vh;
 }
 
-h1 {
+main section iframe {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+h1,
+h2 {
   font-family: "League Script, cursive";
-  font-size: clamp(24px, 9vw, 48px);
   margin: 0 0 var(--whitespace-s);
   color: rgb(29, 43, 92);
 }
 
+h1 {
+  font-size: clamp(24px, 9vw, 48px);
+}
+
 h2 {
-  font-family: "League Script, cursive";
   font-size: 48px;
-  margin: 0 0 var(--whitespace-s);
-  color: rgb(29, 43, 92);
 }
 
 p {
