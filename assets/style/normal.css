@@ -110,7 +110,7 @@ main {
 
 main section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
   gap: 2em;
   align-items: center;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
