@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "League Script, cursive";
+  src: url("../type/LeagueScript-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(246, 239, 230);
+}
+
+header {
+  font-family: "League Script, cursive";
+  font-size: 48px;
+  color: rgb(29, 43, 92);
+}
