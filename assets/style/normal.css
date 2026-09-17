@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "League Script, cursive";
   src: url("../type/LeagueScript-Regular.ttf");

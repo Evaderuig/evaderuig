@@ -1,0 +1,139 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "League Script, cursive";
+  src: url("../type/LeagueScript-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  color-scheme: light dark;
+
+  --accent-color: deeppink;
+  --border-width: 0.1em;
+
+  --whitespace-s: 1rem;
+  --whitespace-m: calc(var(--whitespace-s) * 2);
+  --whitespace-l: calc(var(--whitespace-s) * 4);
+  --whitespace-xs: calc(var(--whitespace-s) * 0.5);
+  --factor: 1.5;
+  --step-0: clamp(1rem, 0.9286rem + 0.3571cqi, 1.25rem);
+  --step-1: clamp(1.125rem, 0.9107rem + 1.0714cqi, 1.875rem);
+  --step-2: clamp(1.2656rem, 0.8237rem + 2.2098cqi, 2.8125rem);
+  --step-3: clamp(1.4238rem, 0.6253rem + 3.9927cqi, 4.2188rem);
+  --step-4: clamp(1.6018rem, 0.2514rem + 6.7519cqi, 6.3281rem);
+  --step-5: clamp(1.802rem, -0.3952rem + 10.9859cqi, 9.4922rem);
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: var(--whitespace-s);
+}
+
+nav {
+  background-color: rgb(180, 196, 219);
+  border-bottom: 1px solid rgb(29, 43, 92);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 0.5em;
+  padding: 1em 2em;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  white-space: nowrap;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header {
+  padding: 2em 2em;
+  background-color: (246, 239, 230);
+}
+
+header section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  gap: 2em;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+  img,
+  svg,
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-block: var(--whitespace-s);
+  }
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  gap: 2em;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: (246, 239, 230);
+  padding: 2em 2em;
+
+  img,
+  svg,
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-block: var(--whitespace-s);
+  }
+}
+
+h1,
+h2 {
+  font-family: "League Script, cursive";
+  margin: 0 0 var(--whitespace-s);
+  color: rgb(29, 43, 92);
+}
+
+h1 {
+  font-size: clamp(24px, 9vw, 48px);
+}
+
+h2 {
+  font-size: 48px;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: rgb(29, 43, 92);
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  color: rgb(29, 43, 92);
+  font-size: 36px;
+  font-weight: 100;
+}
