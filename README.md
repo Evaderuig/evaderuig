@@ -6,6 +6,25 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ### 23 sept [Werkgroep 8]
 
+Check-out
+
+1. Een wireframe is een schematische schets van een pagina waarin ik laat zien hoe die eruit kan komen te zien: welke onderdelen erop staan, waar ze geplaatst worden en wat de interactieve elementen zijn.
+
+Het nut ervan is dat ik snel verschillende layouts kan uitproberen en ideeën kan visualiseren, zonder me al druk te maken over kleur of detail. Dat maakt het makkelijk om ideeën te bespreken en aan te passen voordat ik tijd steek in een uitgewerkt design. Ik kan een wireframe LoFi (snel en simpel) of HiFi (gedetailleerder, bijvoorbeeld in Figma) maken.
+
+2. Volgens NN/G zijn dit ontwerppatronen die gebruikers een actie laten uitvoeren die vooral goed is voor het bedrijf, door ze te misleiden, te sturen, te beschamen of tegen te werken als ze een andere (minder winstgevende) keuze willen maken.Een deceptive pattern is een designpatroon dat gebruikers aanzet tot een actie die het bedrijf ten goede komt, door de gebruiker te misleiden, misleidend te sturen, te beschamen, of tegen te werken bij het maken van een andere keuze. Ze werken vooral goed bij mensen die weinig tijd hebben of minder digitaal vaardig zijn.
+
+Drie voorbeelden zijn:
+
+1.  Obstruction (tegenwerking):
+    Het bedrijf maakt het bewust lastig om iets te doen wat niet in hun voordeel is, bijvoorbeeld door opzeggen heel omslachtig te maken.
+2.  Confirmshaming (emotionele manipulatie):
+    Als je iets weigert (zoals een kortingscode), krijg je een schuldgevoel-tekstje te zien in plaats van een neutrale "nee, bedankt"-knop, zoals "nee, ik hou niet van besparen".
+3.  Sneaking / preselection (stiekem toevoegen):
+    Bij het afrekenen worden er automatisch extra items aan je winkelwagen toegevoegd, of extra opties alvast aangevinkt, zonder dat je dat zelf hebt gekozen. Jij moet het dan zelf ontdekken en uitzetten.
+
+4.  Bij een human consent component moet ik als ontwerper vooral zorgen dat de gebruiker een eerlijke, vrije keuze heeft. Dat betekent dat weigeren net zo makkelijk moet zijn als accepteren, dat er niks alvast voor de gebruiker wordt aangevinkt, en dat ik geen schuldgevoel of tijdsdruk gebruik om iemand richting "ja" te duwen. Ook moet de tekst kort en duidelijk zijn, zodat iemand echt snapt waar diegene mee instemt, en moet die keuze later ook weer aan te passen zijn.
+
 ### 21 sept [Werkgroep 7]
 
 Check-out
