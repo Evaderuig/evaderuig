@@ -16,7 +16,11 @@ Check-out
 
 3. Vroeger (op de middelbare school) drukte ik eigenlijk meteen op accepteer alles, omdat ik geen idee had wat cookies deden. Tegenwoordig heb ik veel meer over geleerd en zoek ik eigenlijk meteen naar de weiger alles knop. Zelfs als ik er wat meer moeite voor moet doen door alle voorkeuren weg te klikken.
 
+![alt text](image-2.png)
+
 ### 18 sept [Werkgroep 6]
+
+![alt text](image-3.png)
 
 ### 16 sept [Werkgroep 5]
 
