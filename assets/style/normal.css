@@ -16,11 +16,11 @@
 html {
   color-scheme: light dark;
 
-  --color-cyan: light-dark(darkcyan, cyan);
-  --color-magenta: light-dark(darkmagenta, magenta);
+  --color-Blue: light-dark(rgb(29, 43, 92), rgb(62, 113, 196));
+  --color-Achtergrond: light-dark(antiquewhite, rgb(29, 43, 92));
   --color-yellow: light-dark(goldenrod, yellow);
-  --color-dark: #333333;
-  --color-light: #fefefe;
+  --color-dark: rgb(29, 43, 92);
+  --color-light: antiquewhite;
 
   --color-background: light-dark(var(--color-light), var(--color-dark));
   --color-text: light-dark(var(--color-dark), var(--color-light));
@@ -99,12 +99,12 @@ h4 {
 }
 
 a:hover {
-  color: deeppink;
+  color: antiquewhite;
 }
 
 a:focus {
-  color: deeppink;
-  outline: 0.2em dashed deeppink;
+  color: antiquewhite;
+  outline: 0.2em dashed aliceblue;
 }
 
 label {
@@ -248,4 +248,136 @@ main section iframe {
   max-width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
+}
+
+/**************************
+* MARK: Dialog
+**************************/
+
+dialog {
+  --blauw: var(--color-dark, rgb(29, 43, 92));
+  --papier: var(--color-light, antiquewhite);
+  --lichtblauw: rgb(180, 196, 219);
+
+  width: min(92vw, 600px);
+  max-height: 90dvh;
+  overflow-y: auto;
+  padding: 4rem 1.5rem 1.5rem;
+  background: var(--papier);
+  color: var(--blauw);
+  border: 2px solid var(--blauw);
+  border-radius: 1.5rem;
+  box-shadow: 6px 6px 0 var(--blauw);
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+dialog[open] {
+  animation: privacy-popin 0.3s ease-out;
+}
+dialog::backdrop {
+  background: rgb(29 43 92 / 0.35);
+}
+
+@keyframes privacy-popin {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+}
+
+dialog h2 {
+  font-size: clamp(1.8rem, 6vw, 2.6rem);
+  line-height: 1.1;
+  margin: 0 0 1rem;
+  color: var(--blauw);
+}
+
+dialog p {
+  max-width: 32em;
+  margin: 0 auto 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--blauw);
+}
+
+dialog#privacy-uitleg {
+  text-align: left;
+}
+dialog#privacy-uitleg h2 {
+  text-align: center;
+}
+dialog#privacy-uitleg h3 {
+  margin: 1.25rem 0 0.35rem;
+  font-size: 1.05rem;
+  color: var(--blauw);
+}
+dialog#privacy-uitleg p {
+  max-width: none;
+  margin: 0;
+}
+dialog#privacy-uitleg form > button:not(:first-child) {
+  display: block;
+  margin: 1.5rem auto 0;
+}
+
+dialog form > button:not(:first-child) {
+  font:
+    700 0.95rem "Courier New",
+    Courier,
+    monospace;
+  text-transform: uppercase;
+  padding: 0.8rem 1.3rem;
+  margin: 0.5rem 0.25rem 0;
+  border: 2px solid var(--blauw);
+  border-radius: 999px;
+  cursor: pointer;
+}
+dialog form > button[value="begrepen"]:not(:first-child) {
+  background: var(--blauw);
+  color: var(--papier);
+}
+dialog form > button[type="button"] {
+  background: transparent;
+  color: var(--blauw);
+}
+
+dialog form > button[value="begrepen"]:not(:first-child):hover {
+  background: deeppink;
+  border-color: deeppink;
+}
+dialog form > button[type="button"]:hover {
+  color: deeppink;
+  border-color: deeppink;
+}
+
+dialog form > button:first-child {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.4rem 0.9rem;
+  font:
+    700 0.85rem "Courier New",
+    Courier,
+    monospace;
+  text-transform: uppercase;
+  color: var(--blauw);
+  background: var(--lichtblauw);
+  border: 2px solid var(--blauw);
+  border-radius: 999px;
+  cursor: pointer;
+}
+dialog form > button:first-child:hover {
+  color: deeppink;
+  border-color: deeppink;
+}
+
+dialog button:focus-visible {
+  outline: 0.2em dashed deeppink;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  dialog[open] {
+    animation: none;
+  }
 }
