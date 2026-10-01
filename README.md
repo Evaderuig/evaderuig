@@ -4,6 +4,12 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+### 30 sept [Werkgroep 11]
+
+### 28 sept [Werkgroep 10]
+
+### 25 sept [Werkgroep 9]
+
 ### 23 sept [Werkgroep 8]
 
 Check-out
