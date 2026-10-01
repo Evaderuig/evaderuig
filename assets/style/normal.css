@@ -342,12 +342,12 @@ dialog form > button[type="button"] {
 }
 
 dialog form > button[value="begrepen"]:not(:first-child):hover {
-  background: deeppink;
-  border-color: deeppink;
+  background: rgb(62, 113, 196);
+  border-color: rgb(62, 113, 196);
 }
 dialog form > button[type="button"]:hover {
-  color: deeppink;
-  border-color: deeppink;
+  color: rgb(62, 113, 196);
+  border-color: rgb(62, 113, 196);
 }
 
 dialog form > button:first-child {
@@ -369,11 +369,6 @@ dialog form > button:first-child {
 dialog form > button:first-child:hover {
   color: deeppink;
   border-color: deeppink;
-}
-
-dialog button:focus-visible {
-  outline: 0.2em dashed deeppink;
-  outline-offset: 3px;
 }
 
 @media (prefers-reduced-motion: reduce) {
