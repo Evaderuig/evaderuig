@@ -9,6 +9,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Cormorant, serif";
+  src: url("../type/Cormorant-VariableFont_wght.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat,sans sans-serif";
+  src: url("../type/Montserrat-VariableFont_wght.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
 /**************************
 * MARK: Custom properties
 **************************/
@@ -16,15 +29,15 @@
 html {
   color-scheme: light dark;
 
-  --color-Blue: light-dark(rgb(29, 43, 92), rgb(62, 113, 196));
-  --color-Achtergrond: light-dark(antiquewhite, rgb(29, 43, 92));
-  --color-yellow: light-dark(goldenrod, yellow);
-  --color-dark: rgb(29, 43, 92);
-  --color-light: antiquewhite;
+  --color-Black: light-dark(#333333, rgb(189, 185, 185));
+  --color-Grey: light-dark(grey, #fefefe);
+  --color-Achtergrond: light-dark(#fefefe, #333333);
+  --color-dark: #333333;
+  --color-light: #fefefe;
 
   --color-background: light-dark(var(--color-light), var(--color-dark));
   --color-text: light-dark(var(--color-dark), var(--color-light));
-  --accent-color: rgb(75, 96, 173);
+  --accent-color: #fefefe;
   --border-width: 0.1em;
 
   --whitespace: 2em;
@@ -60,14 +73,27 @@ video {
 
 body {
   font-family: "Courier New", Courier, monospace;
-  margin: var(--whitespace-s);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
 
   display: grid;
   grid-template-areas:
     "nav"
     "header"
+    "aside"
     "main"
     "footer";
+
+  @media (width > 60em) {
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-areas:
+      "nav nav nav"
+      "header header header"
+      "aside aside aside"
+      "main main main"
+      "footer footer footer";
+  }
 }
 
 button,
@@ -99,11 +125,11 @@ h4 {
 }
 
 a:hover {
-  color: antiquewhite;
+  color: var(--color-Grey);
 }
 
 a:focus {
-  color: antiquewhite;
+  color: var(--color-Grey);
   outline: 0.2em dashed aliceblue;
 }
 
@@ -118,9 +144,9 @@ label:has([type="checkbox"]) {
 
 h1,
 h2 {
-  font-family: "League Script, cursive";
+  font-family: "Cormorant, serif";
   margin: 0 0 var(--whitespace-s);
-  color: rgb(29, 43, 92);
+  color: var(--color-text);
 }
 
 h1 {
@@ -128,13 +154,19 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 38px;
+}
+
+h3 {
+  font-family: "Montserrat,sans sans-serif";
+  font-size: 16px;
+  font-weight: bolder;
 }
 
 p {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
-  color: rgb(29, 43, 92);
+  font-family: "Montserrat,sans sans-serif";
+  font-size: 16px;
+  color: var(--color-text);
 }
 
 footer {
@@ -144,9 +176,9 @@ footer {
 }
 
 a {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat,sans sans-serif";
   text-decoration: none;
-  color: rgb(29, 43, 92);
+  color: var(--color-text);
   font-size: 36px;
   font-weight: 100;
 }
@@ -156,19 +188,17 @@ a {
 **************************/
 
 nav {
-  background-color: rgb(180, 196, 219);
-  border-bottom: 1px solid rgb(29, 43, 92);
+  grid-area: nav;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 0.5em;
   padding: 1em 2em;
+  border-bottom: 1px solid var(--color-text);
 }
 
 nav ul {
   display: flex;
-  align-items: center;
   gap: 1.5em;
   list-style: none;
   margin: 0;
@@ -176,12 +206,34 @@ nav ul {
 }
 
 nav a {
-  white-space: nowrap;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-  text-decoration: none;
+}
+.menu-knop {
+  display: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+}
+
+@media (width <= 60em) {
+  .menu-knop {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    gap: 1em;
+    padding-block: 1em;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
 }
 
 /**************************
@@ -189,22 +241,46 @@ nav a {
 **************************/
 
 header {
-  min-height: 80vh;
-  background-image: url("../afbeeldingen/achetgrond\ wit-blauw.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-  gap: var(--whitespace-s);
+  grid-area: header;
+  gap: var(--whitespace);
   align-items: center;
-  padding: 2em;
+  padding: var(--whitespace);
+  margin-inline: auto;
 }
 
 header img {
   width: 100%;
   max-width: 350px;
   height: auto;
+  margin-inline: auto;
+}
+
+@media (width > 60em) {
+  header {
+    grid-template-columns: auto 1fr;
+    gap: calc(var(--whitespace) * 2);
+    min-height: 80vh;
+  }
+}
+
+header h1 {
+  margin-bottom: var(--whitespace-xs);
+}
+
+header p {
+  margin-top: 0;
+}
+
+/**************************
+* MARK: Algemene Styling
+**************************/
+
+aside {
+  display: grid;
+  grid-area: aside;
+  border-top: 1px solid var(--color-text);
+  padding: var(--whitespace);
 }
 
 /**************************
@@ -213,166 +289,29 @@ header img {
 
 main {
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(246, 239, 230);
-  align-items: center;
-}
-
-main section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-  gap: 2em;
+  grid-area: main;
   align-items: center;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 2em 1em;
-  min-height: 80vh;
+  gap: var(--whitespace);
+  border-top: 1px solid var(--color-text);
+  padding: var(--whitespace);
 }
 
-@media (min-width: 700px) {
-  main section {
-    padding: 60px;
-  }
-}
-
-main section:nth-child(1) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(180, 196, 219);
-  min-height: 20vh;
-}
-
-main section iframe {
+main img {
   width: 100%;
-  max-width: 100%;
+  max-width: 350px;
   height: auto;
-  aspect-ratio: 16 / 9;
+}
+
+/**************************
+* MARK: Footer
+**************************/
+
+footer {
+  display: grid;
+  grid-area: footer;
 }
 
 /**************************
 * MARK: Dialog
 **************************/
-
-dialog {
-  --blauw: var(--color-dark, rgb(29, 43, 92));
-  --papier: var(--color-light, antiquewhite);
-  --lichtblauw: rgb(180, 196, 219);
-
-  width: min(92vw, 600px);
-  max-height: 90dvh;
-  overflow-y: auto;
-  padding: 4rem 1.5rem 1.5rem;
-  background: var(--papier);
-  color: var(--blauw);
-  border: 2px solid var(--blauw);
-  border-radius: 1.5rem;
-  box-shadow: 6px 6px 0 var(--blauw);
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-}
-dialog[open] {
-  animation: privacy-popin 0.3s ease-out;
-}
-dialog::backdrop {
-  background: rgb(29 43 92 / 0.35);
-}
-
-@keyframes privacy-popin {
-  from {
-    transform: scale(0.95);
-    opacity: 0;
-  }
-}
-
-dialog h2 {
-  font-size: clamp(1.8rem, 6vw, 2.6rem);
-  line-height: 1.1;
-  margin: 0 0 1rem;
-  color: var(--blauw);
-}
-
-dialog p {
-  max-width: 32em;
-  margin: 0 auto 1rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: var(--blauw);
-}
-
-dialog#privacy-uitleg {
-  text-align: left;
-}
-dialog#privacy-uitleg h2 {
-  text-align: center;
-}
-dialog#privacy-uitleg h3 {
-  margin: 1.25rem 0 0.35rem;
-  font-size: 1.05rem;
-  color: var(--blauw);
-}
-dialog#privacy-uitleg p {
-  max-width: none;
-  margin: 0;
-}
-dialog#privacy-uitleg form > button:not(:first-child) {
-  display: block;
-  margin: 1.5rem auto 0;
-}
-
-dialog form > button:not(:first-child) {
-  font:
-    700 0.95rem "Courier New",
-    Courier,
-    monospace;
-  text-transform: uppercase;
-  padding: 0.8rem 1.3rem;
-  margin: 0.5rem 0.25rem 0;
-  border: 2px solid var(--blauw);
-  border-radius: 999px;
-  cursor: pointer;
-}
-dialog form > button[value="begrepen"]:not(:first-child) {
-  background: var(--blauw);
-  color: var(--papier);
-}
-dialog form > button[type="button"] {
-  background: transparent;
-  color: var(--blauw);
-}
-
-dialog form > button[value="begrepen"]:not(:first-child):hover {
-  background: rgb(62, 113, 196);
-  border-color: rgb(62, 113, 196);
-}
-dialog form > button[type="button"]:hover {
-  color: rgb(62, 113, 196);
-  border-color: rgb(62, 113, 196);
-}
-
-dialog form > button:first-child {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  padding: 0.4rem 0.9rem;
-  font:
-    700 0.85rem "Courier New",
-    Courier,
-    monospace;
-  text-transform: uppercase;
-  color: var(--blauw);
-  background: var(--lichtblauw);
-  border: 2px solid var(--blauw);
-  border-radius: 999px;
-  cursor: pointer;
-}
-dialog form > button:first-child:hover {
-  color: deeppink;
-  border-color: deeppink;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  dialog[open] {
-    animation: none;
-  }
-}
