@@ -4,6 +4,44 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+## 07 oct [Werkgroep 14]
+
+check-out
+
+## 05 oct [Werkgroep 13]
+
+check-out
+
+1.  Termen
+
+- Kerning: ruimte tussen twee specifieke letters aanpassen.
+- Tracking: letterspatiëring van een hele tekst tegelijk aanpassen.
+- Leading: regelafstand, van basislijn tot basislijn.
+- Flush-left / flush-right: links / rechts strak uitgelijnd, de andere kant ongelijk.
+- Centered: op een middenas uitgelijnd.
+- Justified: links én rechts strak uitgelijnd.
+- Indent: eerste regel springt naar binnen.
+- Outdent: eerste regel steekt naar buiten.
+- Modular scale: lettergroottes die met een vaste verhouding groeien.
+- Movable type: losse, herbruikbare letters van lood (Gutenberg).
+- Focuspunt: het element dat als eerste de aandacht trekt.
+- Vijf soorten contrast: grootte, gewicht, stijl/vorm, kleur, richting/positie (check de lijst in je artikel, die kan afwijken).
+- Spatial tension: spanning door afstand, nabijheid en wit tussen elementen.
+
+2. Ongeveer 60 tekens per regel. Dan lees je lekker door: bij kortere regels moet je steeds naar een nieuwe regel springen, en bij langere regels raak je de weg kwijt.
+
+3. Ik kies grootte. Je ziet meteen wat belangrijk is, zonder dat je erover na hoeft te denken. Plaatsing, spacing en lettersoort zijn subtieler en hebben meer context nodig. In mijn YMCA-pagina zie je het ook: de grote Y-M-C-A letters vallen direct op, en de trap van "many" naar "time" werkt alleen door de groeiende grootte.
+
+## 02 oct [Werkgroep 12]
+
+Feedback van Sanne: Ik kan wat dingen weghalen bij mijn code (figure,article, etc.). Daarnaast moet ik mijn cookie pop-up aanpassen, het mag korter en hoeft alleen maar te gaan over wat de site wel opslaat. Mag omdat het zo weinig informatie nodig heeft ook bijvoorbeeld onderaan de pagina staan en dat je erop moet klikken. Typografie past goed bij mijn onderwerp. Verder moet alles wat ik nog niet gedaan heb door ziekte bijhalen.
+
+Restrospective:
+<img src="./afbeeldingen learning log/Metafoor tekening.pdf" alt="metafoor tekening"/>
+<img src="./afbeeldingen learning log/Retrospective 2 page 2.pdf"/>
+<img src="./afbeeldingen learning log/Retrospective 2 page 3.pdf"/>
+<img src="./afbeeldingen learning log/Retrospective 2 page 4.pdf"/>
+
 ### 30 sept [Werkgroep 11]
 
 ### 28 sept [Werkgroep 10]
