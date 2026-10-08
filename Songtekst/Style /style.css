@@ -1,0 +1,207 @@
+/* MARK: fonts */
+@font-face {
+  font-family: "Seraphs";
+  src: url("./SeraphsVF.woff2");
+}
+
+/* MARK: custom properties */
+html {
+  color-scheme: light dark;
+
+  --color-light: #fefefe;
+  --color-dark: black;
+
+  --color-background: light-dark(var(--color-light), var(--color-dark));
+  --color-text: light-dark(var(--color-dark), var(--color-light));
+  --accent-color: #fefefe;
+  --border-width: 0.1em;
+
+  --whitespace: 2em;
+  --whitespace-s: 1em;
+  --whitespace-xs: 0.5em;
+
+  --step-0: clamp(1rem, 0.9167rem + 0.3704vw, 1.25rem);
+  --step-1: clamp(1.2rem, 0.975rem + 1vw, 1.875rem);
+  --step-2: clamp(1.44rem, 0.9825rem + 2.0333vw, 2.8125rem);
+  --step-3: clamp(1.728rem, 0.8978rem + 3.69vw, 4.2188rem);
+  --step-4: clamp(2.0736rem, 0.6554rem + 6.303vw, 6.3281rem);
+  --step-5: clamp(2.4883rem, 0.1537rem + 10.3761vw, 9.4922rem);
+}
+
+/* MARK: items */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Seraphs";
+  padding: 3em;
+  background-color: rgb(148, 13, 13);
+  color: #fefefe;
+}
+
+main {
+  line-height: 4em;
+  text-align: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-variation-settings:
+    "wght" 100,
+    "SRFS" 0;
+}
+
+h2 {
+  padding-bottom: 6em;
+}
+
+p {
+  font-size: 18px;
+  font-variation-settings:
+    "wght" 100,
+    "SRFS" 4;
+}
+
+ym {
+  display: block;
+  font-size: 24px;
+  font-variation-settings:
+    "wght" 100,
+    "SRFS" 10;
+}
+
+/* MARK: I said*/
+said {
+  font-size: 12px;
+  font-variation-settings:
+    "wght" 100,
+    "SRFS" 44;
+  word-spacing: -0.1em;
+}
+
+/* MARK: ground*/
+ground {
+  font-size: 18px;
+  font-variation-settings:
+    "wght" 122,
+    "SRFS" 0;
+  display: inline-block;
+  padding-left: var(--whitespace-s);
+}
+@keyframes opkrabbelen {
+  from {
+    transform: translateY(0.6em);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+ground {
+  animation: opkrabbelen 1.5s ease-out infinite alternate;
+}
+
+/* MARK: ymca*/
+ul {
+  font-size: 180px;
+  font-variation-settings:
+    "wght" 200,
+    "SRFS" 0;
+  text-decoration: none;
+  list-style: none;
+  line-height: 2em;
+  word-spacing: -5px;
+  text-align: center;
+}
+
+/* MARK: down*/
+d {
+  font-size: 18px;
+  font-variation-settings:
+    "wght" 122,
+    "SRFS" 0;
+  display: inline-block;
+  transform: rotate(18deg);
+  padding-top: var(--whitespace);
+  padding-left: var(--whitespace-s);
+}
+@keyframes zak {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(0.5em);
+    opacity: 0.4;
+  }
+}
+d {
+  animation: zak 2s ease-in-out infinite alternate;
+}
+
+fun {
+  font-size: 24px;
+  display: inline-block;
+}
+
+unhappy {
+  font-size: 38px;
+  font-variation-settings:
+    "wght" 140,
+    "SRFS" 0;
+  text-transform: uppercase;
+  word-spacing: 0.5em;
+  padding: var(--whitespace-s);
+}
+
+stay {
+  font-size: 24px;
+  font-variation-settings:
+    "wght" 140,
+    "SRFS" 0;
+  text-transform: uppercase;
+}
+
+many {
+  font-size: 24px;
+  margin-left: 0.8em;
+  text-transform: uppercase;
+}
+
+ways {
+  font-size: 32px;
+  margin-left: 1em;
+  text-transform: uppercase;
+}
+
+to {
+  font-size: 38px;
+  margin-left: 1.2em;
+  text-transform: uppercase;
+}
+
+have {
+  font-size: 42px;
+  margin-left: 1.4em;
+  text-transform: uppercase;
+}
+
+ae {
+  font-size: 48px;
+  margin-left: 1.6em;
+  text-transform: uppercase;
+}
+
+good {
+  font-size: 52px;
+  margin-left: 1.8em;
+  text-transform: uppercase;
+}
+
+time {
+  font-size: 58px;
+  margin-left: 2em;
+  text-transform: uppercase;
+}
