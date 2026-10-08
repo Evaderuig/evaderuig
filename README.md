@@ -8,6 +8,17 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 check-out
 
+1. Grid
+   Ontwerper: een grid geeft houvast. Ik hoef niet bij elk element opnieuw te bedenken waar het moet staan, dus ik werk sneller en consistenter.
+   Bezoeker: alles staat op een voorspelbare plek. Daardoor leest de pagina rustig en vind je snel wat je zoekt.
+
+2. Chaos voorkomen
+   - Ik gebruik een vast systeem voor lettergroottes en marges, zoals een modular scale.
+   - Ik beperk mijn keuzes: een paar lettertypes en kleuren, niet tien.
+   - Ik lijn elementen uit op dezelfde assen en geef ze genoeg wit.
+
+3. Genoeg om de aandacht te trekken, maar op één of twee plekken. Als alles gek is, valt niets meer op. In mijn YMCA-pagina zit de gekkigheid in de grote letters en de trap, en de rest is rustig. Zo vallen die twee dingen op.
+
 ## 05 oct [Werkgroep 13]
 
 check-out
