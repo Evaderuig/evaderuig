@@ -123,6 +123,7 @@ Check-out
 2. Mijn digital garden gaat over portret tekenen. Ik doe het over dit oinderwerp omdat het iets is wat ik zelf heel leuk vind om te doen en daarom kan ik mijn digital garden heel persoonlijk maken. Ik wil mijn digital garden vormgeven als een soort kunst galerij. Met daarin foto's van mijn eigen portretten en misschien ook van andere mensen. Als je op de foto klikt komt er een klein tekstje over de tekening.
 
 3. Ik zou van de crazy 8 de eerste (links boven) uit willen werken. Ik denk namelijk dat dit een design is dat bruikbaar is voor laptop, maar ook nog goed eruit ziet op telefoon formaat. Daarnaast geeft het een beetje de sfeer van een galerij.
+
    ![alt text](image-1.png)
 
 ### 8 sept - deepdive Light & Dark theme (Vasilis)

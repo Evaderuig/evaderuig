@@ -32,7 +32,7 @@ html {
   --color-Black: light-dark(#333333, rgb(189, 185, 185));
   --color-Grey: light-dark(grey, #fefefe);
   --color-Achtergrond: light-dark(#fefefe, #333333);
-  --color-dark: #333333;
+  --color-dark: black;
   --color-light: #fefefe;
 
   --color-background: light-dark(var(--color-light), var(--color-dark));
