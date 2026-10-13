@@ -38,8 +38,8 @@ html {
 body {
   font-family: "Seraphs";
   padding: 3em;
-  background-color: rgb(148, 13, 13);
-  color: #fefefe;
+  background-color: #fefefe;
+  color: black;
 }
 
 main {
@@ -127,6 +127,7 @@ d {
   transform: rotate(18deg);
   padding-top: var(--whitespace);
   padding-left: var(--whitespace-s);
+  animation: zak 2s ease-in-out infinite alternate;
 }
 @keyframes zak {
   from {
@@ -137,15 +138,14 @@ d {
     opacity: 0.4;
   }
 }
-d {
-  animation: zak 2s ease-in-out infinite alternate;
-}
 
+/* MARK: fun*/
 fun {
   font-size: 24px;
   display: inline-block;
 }
 
+/* MARK: to be unhappy*/
 unhappy {
   font-size: 38px;
   font-variation-settings:

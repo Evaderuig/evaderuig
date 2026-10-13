@@ -4,6 +4,12 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+## 09 oct [Werkgroep 15]
+
+check-out
+
+1.
+
 ## 07 oct [Werkgroep 14]
 
 check-out
@@ -157,3 +163,27 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
    volgen.
 
 3. Je kan aanpassingen maken aan mijn pagina door de code aan te passen in vscode.
+
+## Deep Dives
+
+## S3 - CSS animaties (Sanne)
+
+## S3 - Variabele fonts (Sanne)
+
+## S3 - Interessantere layouts (Vasilis)
+
+## S2 - Meer interactie met HTML en CSS (Vasilis)
+
+## S2 - Position + Dialogs (Sanne)
+
+## S2 - Buttons + Dialogs (Sanne)
+
+## S2 - Buttons, states en selectors (Vasilis)
+
+## S1 - Responsive grid + Grid-areas (Vasilis)
+
+## S1 - Grid 101 + Media queries (Sanne)
+
+## S1 - Mooie kleuren en gradients (Sanne)
+
+## S1 - Light & Dark theme (Vasilis)
