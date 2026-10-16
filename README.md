@@ -187,3 +187,9 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 ## S1 - Mooie kleuren en gradients (Sanne)
 
 ## S1 - Light & Dark theme (Vasilis)
+
+<img src="./afbeeldingen learning log/afbeeldingen deep dives/deepdive 1 dark.png"/>
+<img src="./afbeeldingen learning log/afbeeldingen deep dives/deepdive 1 light.png"/>
+
+Van de deep dive heb ik geleerd hoe je met CSS custom properties een light en dark theme maakt. Je zet je kleuren één keer als variabelen en past ze aan voor het andere thema, dat scheelt veel dubbel werk.
+Op mijn website van Eva de Ruig heb ik dit toegepast met een keuze tussen “licht” en “donker” in de navigatie, zodat bezoekers zelf kunnen kiezen wat ze prettig vinden.

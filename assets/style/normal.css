@@ -31,6 +31,7 @@ html {
 
   --color-dark: rgb(28, 27, 27);
   --color-light: #fefefe;
+  --color-Grey: light-dark (rgb(142, 138, 138), #fefefe);
 
   --color-background: light-dark(var(--color-light), var(--color-dark));
   --color-text: light-dark(var(--color-dark), var(--color-light));
