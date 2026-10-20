@@ -176,8 +176,6 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 
 ## S2 - Position + Dialogs (Sanne)
 
-## S2 - Buttons + Dialogs (Sanne)
-
 ## S2 - Buttons, states en selectors (Vasilis)
 
 ## S1 - Responsive grid + Grid-areas (Vasilis)
