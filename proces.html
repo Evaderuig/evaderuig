@@ -21,18 +21,33 @@
       </label>
       <button
         class="menu-knop"
-        aria-expanded="false"
-        aria-controls="menu"
         aria-label="Menu"
+        commandfor="menu-dialog"
+        command="show-modal"
       >
         ☰
       </button>
       <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="proces.html">Proces</a></li>
-        <li><a href="tutorials.html">Tutorials</a></li>
         <li><a href="Songtekst/index.html">Experiment</a></li>
       </ul>
+
+      <dialog id="menu-dialog" closedby="any">
+        <button
+          commandfor="menu-dialog"
+          command="close"
+          aria-label="Menu sluiten"
+        ></button>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="proces.html">Proces</a></li>
+
+          <li><a href="Songtekst/index.html">Experiment</a></li>
+        </ul>
+      </dialog>
     </nav>
     <header>
       <h1>Mijn Proces</h1>
@@ -106,6 +121,18 @@
           Dit is het eindresultaat! Er zit uren werk in, omdat ik elk detail zo
           goed mogelijk wilde maken. Maar het gezicht van mijn teamgenoten als
           ze het zien, maakt dat het allemaal waard is.
+        </p>
+      </article>
+      <article>
+        <h3>Zelf aan de slag?</h3>
+        <p>
+          Heb ik je geïnspireerd en wil je zelf beginnen met portretten tekenen?
+          Een goede start is het kijken van tutorials op YouTube. Er staan een
+          aantal hele overzichtelijke en simpele tussen, waarin je stap voor
+          stap meekijkt. Probeer daarnaast de verschillende onderdelen los te
+          oefenen. Teken dus eerst een oog, daarna lippen, haar, enzovoort. Zo
+          leer je elk onderdeel goed kennen voordat je ze samenbrengt in een
+          heel portret.
         </p>
       </article>
     </main>

@@ -32,6 +32,7 @@ html {
   --color-dark: rgb(28, 27, 27);
   --color-light: #fefefe;
   --color-grey: light-dark(rgb(166, 151, 151), #cdc8c8);
+  --color-kleurblok: light-dark(#fefefe, rgb(28, 27, 27));
 
   --color-background: light-dark(var(--color-light), var(--color-dark));
   --color-text: light-dark(var(--color-dark), var(--color-light));
@@ -77,6 +78,7 @@ body {
     "details"
     "eindresultaat"
     "laatste"
+    "tips"
     "footer";
 
   @media (width > 60em) {
@@ -88,6 +90,7 @@ body {
       ".   klein   klein   kleur   kleur"
       "details   details   details  .  ."
       "eindresultaat   eindresultaat   eindresultaat   laatste   laatste "
+      "tips  tips  tips  tips  ."
       "footer   footer   footer   footer   footer";
   }
 }
@@ -151,8 +154,8 @@ html:has([value="dark-theme"]:checked) {
 }
 
 nav label {
-  font-size: 16px;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   gap: var(--whitespace-xs);
   padding-left: 3em;
@@ -187,6 +190,7 @@ nav a {
   text-decoration: none;
   color: var(--color-text);
 }
+
 .menu-knop {
   display: none;
   background: none;
@@ -200,17 +204,32 @@ nav a {
     display: block;
   }
 
-  nav ul {
+  #menu {
     display: none;
-    flex-basis: 100%;
-    flex-direction: column;
-    gap: 1em;
-    padding-block: 1em;
   }
+}
 
-  nav ul.open {
-    display: flex;
-  }
+#menu-dialog {
+  margin: 1em 1em auto auto;
+  width: min(90vw, 20em);
+  padding: var(--whitespace);
+  border: 1px solid var(--color-text);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+#menu-dialog ul {
+  display: grid;
+  gap: var(--whitespace-s);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu-dialog button {
+  position: static;
+  display: block;
+  margin: 0 0 var(--whitespace-s) auto;
 }
 
 /**************************
@@ -219,7 +238,9 @@ nav a {
 
 header {
   grid-area: header;
-  height: 50vh;
+  height: 40vh;
+  max-width: 45em;
+  justify-self: center;
   padding: var(--whitespace);
   text-align: center;
   border-bottom: 1px solid var(--color-text);
@@ -230,12 +251,11 @@ header {
 **************************/
 main {
   display: contents;
-}
-
-main > img,
-main > article,
-main > aside {
-  padding: var(--whitespace);
+  img,
+  article,
+  aside {
+    padding: var(--whitespace);
+  }
 }
 
 /* MARK: Grid-areas */
@@ -263,7 +283,12 @@ article:nth-of-type(2) {
 article:nth-of-type(3) {
   grid-area: laatste;
   align-self: center;
-  padding: var(--whitespace);
+}
+
+article:nth-of-type(4) {
+  grid-area: tips;
+  align-self: center;
+  background-color: var(--color-grey);
 }
 
 /* MARK: Afbeeldingen */
@@ -307,10 +332,14 @@ aside {
 
 aside p {
   line-height: 1.4;
-  color: #fefefe;
+  color: var(--color-kleurblok);
   margin-bottom: var(--whitespace-s);
 }
 
+article:nth-of-type(4) p,
+h3 {
+  color: var(--color-kleurblok);
+}
 /**************************
 * MARK: Footer
 **************************/

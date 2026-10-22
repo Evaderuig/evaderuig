@@ -33,18 +33,33 @@
       </label>
       <button
         class="menu-knop"
-        aria-expanded="false"
-        aria-controls="menu"
         aria-label="Menu"
+        commandfor="menu-dialog"
+        command="show-modal"
       >
         ☰
       </button>
       <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="proces.html">Proces</a></li>
-        <li><a href="tutorials.html">Tutorials</a></li>
         <li><a href="Songtekst/index.html">Experiment</a></li>
       </ul>
+
+      <dialog id="menu-dialog" closedby="any">
+        <button
+          commandfor="menu-dialog"
+          command="close"
+          aria-label="Menu sluiten"
+        ></button>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="proces.html">Proces</a></li>
+
+          <li><a href="Songtekst/index.html">Experiment</a></li>
+        </ul>
+      </dialog>
     </nav>
 
     <picture>
