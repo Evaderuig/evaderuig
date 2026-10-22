@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+/**************************
+* MARK: Fonts
+**************************/
+
 @font-face {
   font-family: "League Script, cursive";
   src: url("../type/LeagueScript-Regular.ttf");
@@ -11,135 +15,308 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Montserrat,sans sans-serif";
+  src: url("../type/Montserrat-VariableFont_wght.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/**************************
+* MARK: Custom properties
+**************************/
+
 html {
   color-scheme: light dark;
 
-  --accent-color: deeppink;
-  --border-width: 0.1em;
+  --color-dark: rgb(28, 27, 27);
+  --color-light: #fefefe;
+  --color-grey: light-dark(rgb(166, 151, 151), #cdc8c8);
 
-  --whitespace-s: 1rem;
-  --whitespace-m: calc(var(--whitespace-s) * 2);
-  --whitespace-l: calc(var(--whitespace-s) * 4);
-  --whitespace-xs: calc(var(--whitespace-s) * 0.5);
-  --factor: 1.5;
-  --step-0: clamp(1rem, 0.9286rem + 0.3571cqi, 1.25rem);
-  --step-1: clamp(1.125rem, 0.9107rem + 1.0714cqi, 1.875rem);
-  --step-2: clamp(1.2656rem, 0.8237rem + 2.2098cqi, 2.8125rem);
-  --step-3: clamp(1.4238rem, 0.6253rem + 3.9927cqi, 4.2188rem);
-  --step-4: clamp(1.6018rem, 0.2514rem + 6.7519cqi, 6.3281rem);
-  --step-5: clamp(1.802rem, -0.3952rem + 10.9859cqi, 9.4922rem);
+  --color-background: light-dark(var(--color-light), var(--color-dark));
+  --color-text: light-dark(var(--color-dark), var(--color-light));
+
+  --whitespace: 2em;
+  --whitespace-s: 1em;
+  --whitespace-xs: 0.5em;
+}
+
+/**************************
+* MARK: Algemene Styling
+**************************/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-block: var(--whitespace-s);
 }
 
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat,sans sans-serif";
   margin: var(--whitespace-s);
-  background-color: rgb(246, 239, 230);
+  background-color: var(--color-background);
+
+  display: grid;
+  gap: var(--whitespace);
+  grid-template-areas:
+    "nav"
+    "header"
+    "foto"
+    "start"
+    "klein"
+    "kleur"
+    "details"
+    "eindresultaat"
+    "laatste"
+    "footer";
+
+  @media (width > 60em) {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+      "nav    nav    nav    nav    nav"
+      "header header header  header  header"
+      "foto   foto   start   start   start"
+      ".   klein   klein   kleur   kleur"
+      "details   details   details  .  ."
+      "eindresultaat   eindresultaat   eindresultaat   laatste   laatste "
+      "footer   footer   footer   footer   footer";
+  }
+}
+
+button,
+summary {
+  cursor: pointer;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+a:hover {
+  color: rgb(164, 156, 156);
+}
+
+a:focus {
+  color: var(--color-grey);
+  outline: 0.2em dashed aliceblue;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "League Script, cursive";
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 16px;
+  color: var(--color-text);
+}
+
+/**************************
+* MARK: Nav
+**************************/
+
+html:has([value="light-theme"]:checked) {
+  color-scheme: light;
+}
+
+html:has([value="dark-theme"]:checked) {
+  color-scheme: dark;
+}
+
+nav label {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: var(--whitespace-xs);
+  padding-left: 3em;
 }
 
 nav {
-  background-color: rgb(180, 196, 219);
-  border-bottom: 1px solid rgb(29, 43, 92);
+  grid-area: nav;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 0.5em;
   padding: 1em 2em;
+  border-bottom: 1px solid var(--color-text);
+}
+
+nav p {
+  font-weight: bolder;
 }
 
 nav ul {
   display: flex;
-  align-items: center;
   gap: 1.5em;
   list-style: none;
-  margin: 0;
+  margin: 0 0 0 auto;
   padding: 0;
 }
 
 nav a {
-  white-space: nowrap;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
+  color: var(--color-text);
 }
+.menu-knop {
+  display: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+}
+
+@media (width <= 60em) {
+  .menu-knop {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    gap: 1em;
+    padding-block: 1em;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+}
+
+/**************************
+* MARK: Header
+**************************/
 
 header {
-  padding: 2em 2em;
-  background-color: (246, 239, 230);
+  grid-area: header;
+  height: 50vh;
+  padding: var(--whitespace);
+  text-align: center;
+  border-bottom: 1px solid var(--color-text);
 }
 
-header section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-  gap: 2em;
-  align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-
-  img,
-  svg,
-  video {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-block: var(--whitespace-s);
-  }
-}
+/**************************
+* MARK: Main
+**************************/
 main {
+  display: contents;
+}
+
+main > img,
+main > article,
+main > aside {
+  padding: var(--whitespace);
+}
+
+/* MARK: Grid-areas */
+main > img:nth-of-type(1) {
+  grid-area: foto;
+}
+
+main > img:nth-of-type(2) {
+  grid-area: klein;
+}
+main > img:nth-of-type(3) {
+  grid-area: eindresultaat;
+}
+aside {
+  grid-area: kleur;
+}
+article:nth-of-type(1) {
+  grid-area: start;
+}
+
+article:nth-of-type(2) {
+  grid-area: details;
+}
+
+article:nth-of-type(3) {
+  grid-area: laatste;
+  align-self: center;
+  padding: var(--whitespace);
+}
+
+/* MARK: Afbeeldingen */
+main img {
+  width: 100%;
+  align-self: start;
+}
+
+/* MARK: Artikelen */
+article section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-  gap: 2em;
-  align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 2em 2em;
-  min-height: 80vh;
-
-  img,
-  svg,
-  video {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-block: var(--whitespace-s);
-  }
+  grid-template-columns: 1fr 1fr;
+  gap: var(--whitespace);
 }
 
-h1,
-h2 {
-  font-family: "League Script, cursive";
-  margin: 0 0 var(--whitespace-s);
-  color: rgb(29, 43, 92);
+article section p {
+  margin-bottom: 0;
 }
 
-h1 {
-  font-size: clamp(24px, 9vw, 48px);
+article section p:nth-child(2) {
+  border-left: 1px solid var(--color-text);
+  padding-left: var(--whitespace);
 }
 
-h2 {
-  font-size: 48px;
+article h2 {
+  line-height: 1;
+  margin-bottom: 0;
 }
 
-p {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
-  color: rgb(29, 43, 92);
+article h3 {
+  line-height: 1.2;
+  margin-bottom: var(--whitespace-xs);
 }
 
-figure {
-  margin: 0;
+aside {
+  align-self: start;
+  background: var(--color-grey);
+  padding: var(--whitespace);
+  text-align: center;
 }
 
-a {
-  font-family: "Courier New", Courier, monospace;
-  text-decoration: none;
-  color: rgb(29, 43, 92);
-  font-size: 36px;
-  font-weight: 100;
+aside p {
+  line-height: 1.4;
+  color: #fefefe;
+  margin-bottom: var(--whitespace-s);
 }
+
+/**************************
+* MARK: Footer
+**************************/
 
 footer {
+  grid-area: footer;
   background-color: antiquewhite;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding: 2em;
