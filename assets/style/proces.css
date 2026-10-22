@@ -134,6 +134,7 @@ h2 {
 h3 {
   font-size: 24px;
   font-weight: 300;
+  color: var(--color-text);
 }
 
 p {
@@ -165,9 +166,7 @@ nav {
   grid-area: nav;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 1em 2em;
+  padding: var(--whitespace-s);
   border-bottom: 1px solid var(--color-text);
 }
 
@@ -184,7 +183,6 @@ nav ul {
 }
 
 nav a {
-  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
@@ -336,8 +334,11 @@ aside p {
   margin-bottom: var(--whitespace-s);
 }
 
-article:nth-of-type(4) p,
-h3 {
+article:nth-of-type(4) p {
+  color: var(--color-kleurblok);
+}
+
+article:nth-of-type(4) h3 {
   color: var(--color-kleurblok);
 }
 /**************************
