@@ -65,6 +65,12 @@ Restrospective:
 
 ### 25 sept [Werkgroep 9]
 
+1. HTML-validatie is het controleren van je code met een validator, zoals die van W3C, om te zien of je HTML klopt. Zo vind je fouten als niet-gesloten tags of elementen op de verkeerde plek. Het is belangrijk omdat fouten onverklaarbaar gedrag veroorzaken, browsers ze verschillend oplossen en screenreaders erdoor in de war raken. Vandaag heb ik [mijn code in de validator gezet] en [aantal fouten] verbeterd.
+
+2. De enige echte fout was een afbeelding met spaties in de bestandsnaam, die ik heb aangepast. De info-meldingen gingen over een overbodige slash aan het eind van void elements zoals meta, link, input en img. Die doet niets, dus ik kan hem weghalen.
+
+<img src="./afbeeldingen learning log/html validatie 1.png"/>
+<img src="./afbeeldingen learning log/html validatie 2.png"/>
 ### 23 sept [Werkgroep 8]
 
 Check-out
@@ -100,11 +106,34 @@ Check-out
 
 ### 18 sept [Werkgroep 6]
 
+Oriënteren en begrijpen:
+Ik koos voor een digitaal tuintje met portretten in de vorm van een kunstgalerij. In het feedbackgesprek bleek dat de docent dat idee snapte, maar dat ik het nog beter moest laten zien. Ik weet nu dat een idee dat in mijn hoofd duidelijk is, voor een bezoeker nog niet vanzelf duidelijk is.
+
+Verbeelden en conceptualiseren:
+Ik begon met een kunstenaarswebsite als voorbeeld, waarin schilderijen als collage naast de tekst staan. Na de feedback zocht ik een museum als referentie. Daar hangen de schilderijen los naast elkaar, in verschillende groottes, met een titel eronder en een bankje op de vloer. Zo ging ik van een site met schilderijen naar een ruimte waar je langs schilderijen loopt.
+
+Prototypen en uitwerken:
+Ik heb schetsen gemaakt voor de layout op laptop en telefoon en daarna alles in code gebouwd. Door te bouwen kom ik erachter wat werkt, bijvoorbeeld bij het layouten met grid-template-areas, het hamburgermenu met een dialog en de procespagina over één schilderij. Technieken leer ik het best door ze toe te passen.
+
+Evalueren:
+Wat wilde ik weten? Of mijn layout het galerij-idee overbrengt. Wat deed ik? Ik liet mijn eerste versie zien in het feedbackgesprek. Resultaat? De code was goed en de stijl paste bij mijn onderwerp, maar de schilderijen moesten echt los op de pagina staan. Wat weet ik nu (niet)? Ik weet dat de indeling net zo belangrijk is als de stijl, maar ik weet nog niet of het galerij-gevoel ook goed werkt op een telefoon. Ik moet nog checken: HTML-validatie, toegankelijkheid (alt-teksten, contrast, toetsenbord), light/dark mode en prefers-reduced-motion.
+
 ![alt text](image-3.png)
 
 ### 16 sept [Werkgroep 5]
 
+1.  3 principes
+    Nabijheid – Dingen die bij elkaar horen, staan dicht bij elkaar.
+    Gelijkenis – Elementen met dezelfde kleur of vorm voelen alsof ze bij elkaar horen.
+    Figuur en achtergrond – Het belangrijkste onderdeel valt op tegen de achtergrond.
+
+2.  Een grid geeft je houvast en zorgt dat alles netjes bij elkaar past. Toch kun je binnen dat grid spelen met de grootte en plek van afbeeldingen. Het ontwerp blijft daardoor overzichtelijk, maar niet saai.
+
+3.  Ik wil het principe nabijheid gebruiken. Ik zet afbeeldingen en tekst die bij elkaar horen dichter bij elkaar. Zo wordt mijn Garden duidelijker en krijgt het meer de sfeer van een kunstgalerij.
+
 ### 14 sept - [Werkgroep 4]
+
+Bi-weekly geek 1
 
 Check-out
 
@@ -112,7 +141,7 @@ Check-out
 
 2. De volgende stap die ik ga zetten om mijn website responsive te maken is zorgen dat hij zich goed aanpast aan verschillende scherm formaten.
 
-3.
+3. Mijn Garden is ontworpen in de stijl van een online kunstgalerij. Ik heb gekozen voor een rustige achtergrond, opvallende kleuren en veel witruimte, zodat de afbeeldingen en kunstwerken centraal staan. Met HTML heb ik de structuur gemaakt en met CSS de lay-out, typografie, kleuren en navigatie vormgegeven. De eenvoudige navigatie en duidelijke visuele hiërarchie zorgen voor een overzichtelijke user experience.
 
 Wat ik uit de voorbereiding haal is dat de samenleving ontzettend afhankelijk is van grote cloudbedrijven als Amazon. Als een van deze bedrijven uitvalt heeft dat grote gevolgen. Daarnaast zijn europese landen te afhankelijk van Chineese en Amerikaanse technologie bedrijven. Het is belangrijk dat Europa meer onafhankelijk wordt van buitelandse bedrijven.
 
