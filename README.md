@@ -254,26 +254,6 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 
 3. Je kan aanpassingen maken aan mijn pagina door de code aan te passen in vscode.
 
-## Deep Dives
-
-## S3 - CSS animaties (Sanne)
-
-## S3 - Variabele fonts (Sanne)
-
-## S3 - Interessantere layouts (Vasilis)
-
-## S2 - Meer interactie met HTML en CSS (Vasilis)
-
-## S2 - Position + Dialogs (Sanne)
-
-## S2 - Buttons, states en selectors (Vasilis)
-
-## S1 - Responsive grid + Grid-areas (Vasilis)
-
-## S1 - Grid 101 + Media queries (Sanne)
-
-## S1 - Mooie kleuren en gradients (Sanne)
-
 ## S1 - Light & Dark theme (Vasilis)
 
 <img src="./afbeeldingen learning log/afbeeldingen deep dives/deepdive 1 dark.png"/>
