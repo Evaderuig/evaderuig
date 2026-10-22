@@ -4,11 +4,30 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+# 23 oct [Werkgroep 18]
+
+feedback:
+
+# 21 oct [Werjkgroep 17]
+
+Bi-Weekly geek 3
+
+# 19 oct [Werkgroep 16]
+
+<img src="./afbeeldingen learning log/Webby-formulier.pdf"/>
+
 ## 09 oct [Werkgroep 15]
 
 check-out
 
-1.
+1.  Welke variabelen van Seraphs gebruik ik?
+    Ik gebruik wght en SRFS, ingesteld met font-variation-settings. Het gewicht varieert van 100 voor gewone tekst (p, said, h1, h2) via 122 voor “down” en “ground” en 140 voor “unhappy”, “stay” en “many ways to have a good time”, tot 200 voor “Young man”. SRFS staat meestal op 0, bij de songtekstregels (p) op 4 en bij “I said” op 44.
+
+2.  Wat voegt iedere variabele toe?
+    Het gewicht zorgt voor hiërarchie. Tekstregels zijn dun en rustig, terwijl “Young man” en de accentwoorden zwaarder zijn en meteen opvallen. Samen met de kleur (roze, blauw) en de grotere letters (--step-3) bepaalt het wat je als eerste leest. SRFS geeft karakter: de bijzin “I said” krijgt een heel andere vorm (44) dan de rest, zodat het als een soort fluistering tussen de regels staat. Door SRFS laag te houden bij de lopende tekst blijft die goed leesbaar, en de extreme waarden bewaar ik voor de accenten.
+
+3.  Hoe kan ik animatie gebruiken om ritme en accenten beter zichtbaar te maken?
+    Nu beweeg ik met transform (“down” zakt, “ground” kruipt omhoog) en laat ik de YMCA-poppetjes groeien bij hover
 
 ## 07 oct [Werkgroep 14]
 
@@ -54,23 +73,56 @@ check-out
 Feedback van Sanne: Ik kan wat dingen weghalen bij mijn code (figure,article, etc.). Daarnaast moet ik mijn cookie pop-up aanpassen, het mag korter en hoeft alleen maar te gaan over wat de site wel opslaat. Mag omdat het zo weinig informatie nodig heeft ook bijvoorbeeld onderaan de pagina staan en dat je erop moet klikken. Typografie past goed bij mijn onderwerp. Verder moet alles wat ik nog niet gedaan heb door ziekte bijhalen.
 
 Restrospective:
-<img src="./afbeeldingen learning log/Metafoor tekening.pdf" alt="metafoor tekening"/>
+<img src="./afbeeldingen learning log/Metafoor-tekening.pdf" alt="metafoor tekening"/>
 <img src="./afbeeldingen learning log/Retrospective 2 page 2.pdf"/>
 <img src="./afbeeldingen learning log/Retrospective 2 page 3.pdf"/>
 <img src="./afbeeldingen learning log/Retrospective 2 page 4.pdf"/>
 
 ### 30 sept [Werkgroep 11]
 
+Check-out
+
+1. Waar staan WCAG en A11y voor?
+   WCAG is Web Content Accessibility Guidelines, de internationale richtlijnen voor toegankelijke websites. A11y is een afkorting van accessibility: de a, dan 11 letters, en dan de y.
+   De andere vragen gaan over jouw ervaring, dus daar kan ik alleen een opzet voor geven. Vul in wat bij jou klopt.
+
+2. Moet de test nog doen...
+
 ### 28 sept [Werkgroep 10]
 
+Bi-weekly geek 2
+
+<img src="./afbeeldingen learning log/Bi-Weekly-Geek-vragen.pdf"/>
+
+Check-out
+
+1. Ik denk dat hij bedoelt dat semantiek geen doel op zich is. Je gebruikt het juiste HTML-element niet omdat het netjes is, maar omdat het de gebruiker iets oplevert. Een <button> werkt standaard met het toetsenbord en wordt door een screenreader als knop aangekondigd, en met <h1> t/m <h6> en <nav> kun je door een pagina navigeren. Semantiek is dus UX: de gebruiker merkt het zonder dat hij weet dat het semantiek heet.
+
+2. Welke beperkingen hebben invloed op het gebruiken van websites?
+
+- Visueel: blind, slechtziend, kleurenblind.
+- Auditief: doof of slechthorend (denk aan ondertitels bij video).
+- Motorisch: moeite met een muis of kleine knoppen, of alleen het toetsenbord gebruiken.
+- Cognitief: dyslexie, ADHD, concentratieproblemen, waardoor duidelijke structuur en eenvoudige taal helpen.
+- Tijdelijk of situationeel: een gebroken arm, fel zonlicht op je scherm, of een trage verbinding.
+
+3. Drie manieren om met een screenreader te navigeren:
+
+- Met de Tab-toets van link naar link, knop en formulierveld.
+- Per kop: met de kopjes (h1 t/m h6) spring je door de structuur van de pagina, zonder alles te hoeven voorlezen.
+- Via landmarks (zoals nav, main, footer) of een lijst van alle links of koppen, bijvoorbeeld met de rotor van VoiceOver.
+
 ### 25 sept [Werkgroep 9]
+
+Check-out
 
 1. HTML-validatie is het controleren van je code met een validator, zoals die van W3C, om te zien of je HTML klopt. Zo vind je fouten als niet-gesloten tags of elementen op de verkeerde plek. Het is belangrijk omdat fouten onverklaarbaar gedrag veroorzaken, browsers ze verschillend oplossen en screenreaders erdoor in de war raken. Vandaag heb ik [mijn code in de validator gezet] en [aantal fouten] verbeterd.
 
 2. De enige echte fout was een afbeelding met spaties in de bestandsnaam, die ik heb aangepast. De info-meldingen gingen over een overbodige slash aan het eind van void elements zoals meta, link, input en img. Die doet niets, dus ik kan hem weghalen.
 
-<img src="./afbeeldingen learning log/html validatie 1.png"/>
-<img src="./afbeeldingen learning log/html validatie 2.png"/>
+<img src="./afbeeldingen learning log/html-validatie-1.png"/>
+<img src="./afbeeldingen learning log/html-validatie-2.png"/>
+
 ### 23 sept [Werkgroep 8]
 
 Check-out
@@ -104,6 +156,13 @@ Check-out
 
 ![alt text](image-2.png)
 
+Na de feedback van vrijdag heb ik een aantal layout schetsen gemaakt:
+<img src="./afbeeldingen learning log/Optie-1-lay-out.pdf"/>
+<img src="./afbeeldingen learning log/Optie-2-lay-out.pdf"/>
+<img src="./afbeeldingen learning log/Optie-3-lay-out.pdf"/>
+<img src="./afbeeldingen learning log/Optie-4-lay-out.pdf"/>
+<img src="./afbeeldingen learning log/Opties-telefoonscherm.pdf"/>
+
 ### 18 sept [Werkgroep 6]
 
 Oriënteren en begrijpen:
@@ -134,6 +193,8 @@ Wat wilde ik weten? Of mijn layout het galerij-idee overbrengt. Wat deed ik? Ik 
 ### 14 sept - [Werkgroep 4]
 
 Bi-weekly geek 1
+
+<img src="./afbeeldingen learning log/Bi-Weekly-Geek1.pdf"/>
 
 Check-out
 
