@@ -29,6 +29,9 @@ check-out
 3.  Hoe kan ik animatie gebruiken om ritme en accenten beter zichtbaar te maken?
     Nu beweeg ik met transform (“down” zakt, “ground” kruipt omhoog) en laat ik de YMCA-poppetjes groeien bij hover
 
+feedback gesprekje:
+Songtekst mag nog een stuk lelijker. Het is nu bijna een ouderwetse stijl. Past niet echt bij het nummer. YMCA is een beetje cringe, dys ik moet dat laten zien in mijn songtekst. Moet ook kijken naar hoe ik het lettertype gebruik.
+
 ## 07 oct [Werkgroep 14]
 
 check-out
