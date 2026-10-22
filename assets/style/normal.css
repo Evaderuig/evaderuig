@@ -374,6 +374,7 @@ footer {
   background-color: antiquewhite;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding: 2em;
+  color: var(--color-dark);
 }
 
 /**************************
@@ -399,4 +400,10 @@ dialog {
   border: 1px solid var(--color-text);
   background-color: var(--color-background);
   color: var(--color-text);
+}
+
+dialog a {
+  font-size: 16px;
+  color: inherit;
+  text-decoration: underline;
 }
