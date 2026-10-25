@@ -295,17 +295,6 @@ header p {
 }
 
 /**************************
-* MARK: Algemene Styling
-**************************/
-
-aside {
-  display: grid;
-  grid-area: aside;
-  border-top: 1px solid var(--color-text);
-  padding: var(--whitespace);
-}
-
-/**************************
 * MARK: Main
 **************************/
 
@@ -318,7 +307,7 @@ main section {
   grid-area: intro;
   justify-self: start;
   max-width: 25em;
-  margin: var(--whitespace);
+  margin: 12em 2em 2em;
   padding: var(--whitespace);
   background-color: var(--color-Grey);
   color: var(--color-background);
@@ -327,7 +316,7 @@ main section {
 main a {
   grid-area: proces;
   justify-self: center;
-  margin-block: var(--whitespace);
+  margin-block: calc(var(--whitespace) * 6) var(--whitespace);
   padding: var(--whitespace-xs);
   border: 1px solid var(--color-text);
   font-size: 18px;
@@ -406,8 +395,22 @@ figcaption p {
 * MARK: Aside
 **************************/
 
+aside {
+  display: grid;
+  grid-area: aside;
+  padding: var(--whitespace);
+  margin: var(--whitespace);
+  justify-self: start;
+  width: fit-content;
+  background-color: var(--color-Grey);
+  color: var(--color-background);
+}
 aside h2 {
   word-spacing: 0.5em;
+}
+
+aside p {
+  max-width: 45em;
 }
 
 /**************************
