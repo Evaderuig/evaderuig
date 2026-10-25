@@ -10,8 +10,8 @@ html {
 
   --color-light: #fefefe;
   --color-dark: black;
-  --color-red: light-dark(#a61b1b, #d99873);
-  --color-blue: light-dark(#42558c, #223059);
+  --color-red: light-dark(#15737f, #1ebc8f);
+  --color-blue: light-dark(#42558c, #78116a);
   --color-yellow: light-dark(#f2d194, #bf7960);
   --color-pink: light-dark(#f26bb5, #e9aac7);
   --color-background: light-dark(#a61b1b, #223059);
@@ -49,13 +49,6 @@ body {
   );
   min-height: 100vh;
   color: var(--color-light);
-}
-
-header {
-  width: fit-content;
-  margin: 0 0 var(--whitespace);
-  padding: var(--whitespace-xs) var(--whitespace-s);
-  border: var(--border-width) solid var(--color-blue);
 }
 
 main,
@@ -100,6 +93,35 @@ a {
   text-decoration: none;
 }
 
+/* MARK: Header*/
+
+header {
+  display: grid;
+  justify-items: center;
+  gap: var(--whitespace-s);
+  width: 100%;
+  margin: 0 0 var(--whitespace);
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: var(--whitespace-xs);
+}
+
+header img {
+  height: clamp(3rem, 10vw, 7rem);
+}
+
+header h2 {
+  font-size: var(--step-1);
+  text-align: center;
+}
+
 /* MARK: Main*/
 main {
   display: grid;
@@ -113,6 +135,10 @@ main {
   main {
     grid-template-columns: 1fr 1fr;
     column-gap: 3em;
+  }
+
+  main section:nth-child(2) {
+    margin-top: clamp(4rem, 10vw, 9rem);
   }
 }
 
