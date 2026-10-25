@@ -29,6 +29,10 @@ html {
   --color-background: light-dark(var(--color-light), var(--color-dark));
   --color-text: light-dark(var(--color-dark), var(--color-light));
 
+  --card-border: light-dark(rgba(0, 0, 0, 0.15), rgba(255, 255, 255, 0.2));
+  --card-shadow: 0 0.3em 1em light-dark(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.6));
+  --glow: rgba(255, 226, 150, 0.7);
+
   --whitespace: 2em;
   --whitespace-s: 1em;
   --whitespace-xs: 0.5em;
@@ -64,19 +68,36 @@ body {
     "nav"
     "picture"
     "header"
-    "main"
+    "intro"
+    "foto1"
+    "kaart1"
+    "foto2"
+    "kaart2"
+    "foto3"
+    "kaart3"
+    "foto4"
+    "kaart4"
+    "foto5"
+    "kaart5"
+    "proces"
     "aside"
     "footer";
 
   @media (width > 60em) {
-    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-columns: 1fr minmax(0, 35em) 1fr;
     grid-template-areas:
-      "nav nav nav"
+      "nav     nav    nav"
       "picture picture picture"
-      "header header header"
-      "main main main"
-      "aside aside aside"
-      "footer footer footer";
+      "header  header header"
+      "intro   .      ."
+      "kaart1  foto1  ."
+      "kaart2  foto2  ."
+      "kaart3  foto3  ."
+      "kaart4  foto4  ."
+      "kaart5  foto5  ."
+      "proces  proces proces"
+      "aside   aside  aside"
+      "footer  footer footer";
   }
 }
 
@@ -288,72 +309,98 @@ aside {
 * MARK: Main
 **************************/
 
-/*main {
-  margin: auto;
-  display: grid;
-  grid-area: main;
-  align-items: center;
-  gap: var(--whitespace);
-  border-top: 1px solid var(--color-text);
-  padding: var(--whitespace);
-}
-
-main img {
-  width: 100%;
-  max-width: 350px;
-  height: auto;
+main,
+figure {
+  display: contents;
 }
 
 main section {
+  grid-area: intro;
+  justify-self: start;
+  max-width: 25em;
+  margin: var(--whitespace);
   padding: var(--whitespace);
-}
-
-.rij {
-  display: flex;
-  align-items: flex-start;
-  gap: 4em;
-  padding: 3em var(--whitespace) 4em;
-  overflow-x: auto;
-  scroll-snap-type: x proximity;
-}
-
-.rij section {
-  flex: 0 0 auto;
-  scroll-snap-align: center;
-}
-
-.rij section img {
-  width: auto;
-  height: 40vh;
-  max-width: none;
-  margin: 0 0 var(--whitespace-s);
-  box-shadow: 0.4em 0.6em 1.2em rgba(0, 0, 0, 0.25);
-}
-
-main section img {
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-main section:hover img {
-  transform: scale(1.3);
-  box-shadow: 0.6em 0.9em 1.6em rgba(0, 0, 0, 0.35);
-}
-
-main section:hover {
-  position: relative;
-  z-index: 1;
+  background-color: var(--color-Grey);
+  color: var(--color-background);
 }
 
 main a {
-  display: grid;
-  place-items: center;
+  grid-area: proces;
   justify-self: center;
+  margin-block: var(--whitespace);
+  padding: var(--whitespace-xs);
   border: 1px solid var(--color-text);
   font-size: 18px;
-  padding: var(--whitespace-xs);
-}*/
+}
+
+figure:nth-of-type(1) img {
+  grid-area: foto1;
+}
+figure:nth-of-type(1) figcaption {
+  grid-area: kaart1;
+}
+figure:nth-of-type(2) img {
+  grid-area: foto2;
+}
+figure:nth-of-type(2) figcaption {
+  grid-area: kaart2;
+}
+figure:nth-of-type(3) img {
+  grid-area: foto3;
+}
+figure:nth-of-type(3) figcaption {
+  grid-area: kaart3;
+}
+figure:nth-of-type(4) img {
+  grid-area: foto4;
+}
+figure:nth-of-type(4) figcaption {
+  grid-area: kaart4;
+}
+figure:nth-of-type(5) img {
+  grid-area: foto5;
+}
+figure:nth-of-type(5) figcaption {
+  grid-area: kaart5;
+}
+
+figure img {
+  justify-self: center;
+  max-width: 25em;
+  margin: calc(var(--whitespace) * 6) 0 0;
+  box-shadow:
+    0 -1.5em 3em -1em var(--glow),
+    0 0.6em 1.5em rgba(0, 0, 0, 0.3);
+}
+
+figcaption {
+  margin: var(--whitespace-s) var(--whitespace);
+  padding: var(--whitespace-s);
+  border: 1px solid var(--card-border);
+  background-color: var(--color-background);
+  box-shadow: var(--card-shadow);
+}
+
+figcaption h3,
+figcaption p {
+  margin: 0;
+}
+
+figcaption p {
+  margin-top: var(--whitespace-xs);
+}
+
+@media (width > 60em) {
+  figure img {
+    width: 100%;
+  }
+
+  figcaption {
+    align-self: end;
+    justify-self: end;
+    max-width: 16em;
+  }
+}
 
 /**************************
 * MARK: Aside
@@ -405,159 +452,4 @@ dialog a {
   font-size: 16px;
   color: inherit;
   text-decoration: underline;
-}
-
-/* main Test */
-
-main {
-  width: 100%;
-  margin: auto;
-  display: grid;
-  grid-area: main;
-  align-items: center;
-  gap: var(--whitespace);
-  border-top: 1px solid var(--color-text);
-  padding: var(--whitespace);
-}
-
-main > section {
-  justify-self: start;
-  max-width: 25em;
-  padding: var(--whitespace);
-  background-color: var(--color-Grey);
-  color: #fefefe;
-}
-
-.rij {
-  display: grid;
-  gap: calc(var(--whitespace) * 5);
-  padding: var(--whitespace);
-  --card-border: light-dark(rgba(0, 0, 0, 0.15), rgba(255, 255, 255, 0.2));
-  --card-shadow: 0 0.3em 1em light-dark(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.6));
-}
-
-.rij section {
-  position: relative;
-  isolation: isolate;
-  display: grid;
-  column-gap: var(--whitespace);
-  width: 100%;
-  max-width: 50em;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.rij section::before {
-  content: "";
-  height: 4em;
-}
-
-.rij section::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  grid-column: 1;
-  grid-row: 2;
-  top: -8em;
-  left: -4em;
-  right: -4em;
-  height: 10em;
-  pointer-events: none;
-  background: radial-gradient(
-    ellipse 50% 80% at 50% 80%,
-    rgba(255, 226, 150, 0.55) 0%,
-    rgba(255, 226, 150, 0.25) 45%,
-    transparent 100%
-  );
-  mask-image: linear-gradient(to bottom, #000 80%, transparent 100%);
-}
-
-.rij img {
-  width: 100%;
-  max-width: none;
-  height: auto;
-  margin: 0;
-  align-self: start;
-  box-shadow: 0 0.6em 1.5em rgba(0, 0, 0, 0.3);
-}
-
-.rij h3,
-.rij p {
-  margin: 0;
-  padding: var(--whitespace-xs) var(--whitespace-s);
-  border-inline: 1px solid var(--card-border);
-  background-color: var(--color-background);
-  box-shadow: var(--card-shadow);
-  clip-path: inset(0 -3em);
-}
-
-.rij h3 {
-  margin-top: var(--whitespace-s);
-  padding-top: var(--whitespace-s);
-  border-top: 1px solid var(--card-border);
-  clip-path: inset(-3em -3em 0);
-}
-
-.rij p:last-of-type {
-  padding-bottom: var(--whitespace-s);
-  border-bottom: 1px solid var(--card-border);
-  clip-path: inset(0 -3em -3em);
-}
-
-@media (width > 60em) {
-  .rij section {
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 4em 1fr repeat(4, auto);
-  }
-
-  .rij section::before {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  .rij section::after {
-    grid-column: 2;
-    grid-row: 2 / 7;
-  }
-
-  .rij img {
-    grid-column: 2;
-    grid-row: 2 / 7;
-  }
-
-  .rij h3 {
-    grid-column: 1;
-    grid-row: 3;
-    margin-top: 0;
-  }
-
-  .rij p {
-    grid-column: 1;
-  }
-
-  .rij p:nth-of-type(1) {
-    grid-row: 4;
-  }
-
-  .rij p:nth-of-type(2) {
-    grid-row: 5;
-  }
-
-  .rij p:nth-of-type(3) {
-    grid-row: 6;
-  }
-}
-
-main section:hover {
-  position: relative;
-  z-index: 1;
-}
-
-main a {
-  display: grid;
-  place-items: center;
-  justify-self: center;
-  border: 1px solid var(--color-text);
-  font-size: 18px;
-  padding: var(--whitespace-xs);
 }
