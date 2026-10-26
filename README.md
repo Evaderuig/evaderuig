@@ -10,13 +10,13 @@ feedback:
 De feedback die ik van Diederik gekregen heb is dat het idee goed is van de galerij, maar dat het nog steeds niet helemaal naar voren komt. Dus ik moet gaan kijken hoe ik het nog meer op een galerij kan laten lijken. Daarnaast zou het het zijn als ik voor mijn cookies pop-up ook een decline optie maak met dat je naar een andere pagina gaat, of je delen van mijn pagina niet meer kan zien, etc. Mijn songtekst was wel redelijk goed. De twee kolommen zijn alleen nog wat statisch. Ik kan bijvoorbeeld de kolommen gestaffeld plaatsen. Ik kan ook nog wat meer doen met de poppetjes die ik heb getekend.
 
 Retrospective:
-<img src="./afbeeldingen learning log/Metafoor3.pdf"/>
-<img src="./afbeeldingen learning log/Restrospective3-pagina1.pdf"/>
-<img src="./afbeeldingen learning log/Retrospective3-pagina2.pdf"/>
+<img src="./afbeeldingen learning log/retrospect3-1.png"/>
+<img src="./afbeeldingen learning log/retrospect3-2.png"/>
+<img src="./afbeeldingen learning log/metafoor3.png"/>
 
 # 19 oct [Werkgroep 16]
 
-<img src="./afbeeldingen learning log/Webby-formulier.pdf"/>
+<img src="./afbeeldingen learning log/webbyformulier.png"/>
 
 ## 09 oct [Werkgroep 15]
 
@@ -78,10 +78,9 @@ check-out
 Feedback van Sanne: Ik kan wat dingen weghalen bij mijn code (figure,article, etc.). Daarnaast moet ik mijn cookie pop-up aanpassen, het mag korter en hoeft alleen maar te gaan over wat de site wel opslaat. Mag omdat het zo weinig informatie nodig heeft ook bijvoorbeeld onderaan de pagina staan en dat je erop moet klikken. Typografie past goed bij mijn onderwerp. Verder moet alles wat ik nog niet gedaan heb door ziekte bijhalen.
 
 Restrospective:
-<img src="./afbeeldingen learning log/Metafoor-tekening.pdf" alt="metafoor tekening"/>
-<img src="./afbeeldingen learning log/Retrospective 2 page 2.pdf"/>
-<img src="./afbeeldingen learning log/Retrospective 2 page 3.pdf"/>
-<img src="./afbeeldingen learning log/Retrospective 2 page 4.pdf"/>
+<img src="./afbeeldingen learning log/retrospect2-1.png"/>
+<img src="./afbeeldingen learning log/Retrospect2-2.png"/>
+<img src="./afbeeldingen learning log/metafoor2.png"/>
 
 ### 30 sept [Werkgroep 11]
 
@@ -153,20 +152,19 @@ Drie voorbeelden zijn:
 
 Check-out
 
-1. HTML Landmark Role Elements zijn elementen die de hoofdstructuur van een pagina aangeven. Denk aan: <header>,<nav> en <main>. Ze maken duidelijk welk deel van de pagina waarvoor dient.
+1. HTML Landmark Role Elements zijn elementen die de hoofdstructuur van een pagina aangeven. Denk aan: (<header>,<nav> en <main>). Ze maken duidelijk welk deel van de pagina waarvoor dient.
 
-2. Heading elementen zijn <h1> t/m <h6>, gebruikt om koppen en subkoppen aan te geven. Ze horen "genest" te worden: eerst één <h1> als hoofdtitel, daarna <h2> voor secties, daaronder <h3> voor subsecties, enzovoort, zonder niveaus over te slaan. Zo kun je met screenreaders snel door de structuur van de pagina navigeren, net als een inhoudsopgave.
+2. Heading elementen zijn (<h1> t/m <h6>) gebruikt om koppen en subkoppen aan te geven. Ze horen "genest" te worden: eerst één (<h1>) als hoofdtitel, daarna (<h2> )voor secties, daaronder (<h3>) voor subsecties, enzovoort, zonder niveaus over te slaan. Zo kun je met screenreaders snel door de structuur van de pagina navigeren, net als een inhoudsopgave.
 
 3. Vroeger (op de middelbare school) drukte ik eigenlijk meteen op accepteer alles, omdat ik geen idee had wat cookies deden. Tegenwoordig heb ik veel meer over geleerd en zoek ik eigenlijk meteen naar de weiger alles knop. Zelfs als ik er wat meer moeite voor moet doen door alle voorkeuren weg te klikken.
 
 ![alt text](image-2.png)
 
 Na de feedback van vrijdag heb ik een aantal layout schetsen gemaakt:
-<img src="./afbeeldingen learning log/Optie-1-lay-out.pdf"/>
-<img src="./afbeeldingen learning log/Optie-2-lay-out.pdf"/>
-<img src="./afbeeldingen learning log/Optie-3-lay-out.pdf"/>
-<img src="./afbeeldingen learning log/Optie-4-lay-out.pdf"/>
-<img src="./afbeeldingen learning log/Opties-telefoonscherm.pdf"/>
+<img src="./afbeeldingen learning log/Optie4.png"/>
+<img src="./afbeeldingen learning log/Ontwerp zonder titel.png"/>
+<img src="./afbeeldingen learning log/optiestelefoon1.png"/>
+<img src="./afbeeldingen learning log/optiestelefoon2.png"/>
 
 ### 18 sept [Werkgroep 6]
 
@@ -199,7 +197,8 @@ Wat wilde ik weten? Of mijn layout het galerij-idee overbrengt. Wat deed ik? Ik 
 
 Bi-weekly geek 1
 
-<img src="./afbeeldingen learning log/Bi-Weekly-Geek1.pdf"/>
+<img src="./afbeeldingen learning log/biweekly1.png"/>
+<img src="./afbeeldingen learning log/biweeklyvragen.png"/>
 
 Check-out
 
