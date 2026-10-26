@@ -7,10 +7,12 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 # 23 oct [Werkgroep 18]
 
 feedback:
+De feedback die ik van Diederik gekregen heb is dat het idee goed is van de galerij, maar dat het nog steeds niet helemaal naar voren komt. Dus ik moet gaan kijken hoe ik het nog meer op een galerij kan laten lijken. Daarnaast zou het het zijn als ik voor mijn cookies pop-up ook een decline optie maak met dat je naar een andere pagina gaat, of je delen van mijn pagina niet meer kan zien, etc. Mijn songtekst was wel redelijk goed. De twee kolommen zijn alleen nog wat statisch. Ik kan bijvoorbeeld de kolommen gestaffeld plaatsen. Ik kan ook nog wat meer doen met de poppetjes die ik heb getekend.
 
-# 21 oct [Werjkgroep 17]
-
-Bi-Weekly geek 3
+Retrospective:
+<img src="./afbeeldingen learning log/Metafoor3.pdf"/>
+<img src="./afbeeldingen learning log/Restrospective3-pagina1.pdf"/>
+<img src="./afbeeldingen learning log/Retrospective3-pagina2.pdf"/>
 
 # 19 oct [Werkgroep 16]
 
