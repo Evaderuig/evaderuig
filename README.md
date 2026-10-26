@@ -101,7 +101,7 @@ Bi-weekly geek 2
 
 Check-out
 
-1. Ik denk dat hij bedoelt dat semantiek geen doel op zich is. Je gebruikt het juiste HTML-element niet omdat het netjes is, maar omdat het de gebruiker iets oplevert. Een <button> werkt standaard met het toetsenbord en wordt door een screenreader als knop aangekondigd, en met <h1> t/m <h6> en <nav> kun je door een pagina navigeren. Semantiek is dus UX: de gebruiker merkt het zonder dat hij weet dat het semantiek heet.
+1. Ik denk dat hij bedoelt dat semantiek geen doel op zich is. Je gebruikt het juiste HTML-element niet omdat het netjes is, maar omdat het de gebruiker iets oplevert. Een (button) werkt standaard met het toetsenbord en wordt door een screenreader als knop aangekondigd, en met (h1 t/m h6) en (nav) kun je door een pagina navigeren. Semantiek is dus UX: de gebruiker merkt het zonder dat hij weet dat het semantiek heet.
 
 2. Welke beperkingen hebben invloed op het gebruiken van websites?
 
@@ -153,9 +153,9 @@ Drie voorbeelden zijn:
 
 Check-out
 
-1. HTML Landmark Role Elements zijn elementen die de hoofdstructuur van een pagina aangeven. Denk aan: (<header>,<nav> en <main>). Ze maken duidelijk welk deel van de pagina waarvoor dient.
+1. HTML Landmark Role Elements zijn elementen die de hoofdstructuur van een pagina aangeven. Denk aan: (header,nav en main). Ze maken duidelijk welk deel van de pagina waarvoor dient.
 
-2. Heading elementen zijn (<h1> t/m <h6>) gebruikt om koppen en subkoppen aan te geven. Ze horen "genest" te worden: eerst één (<h1>) als hoofdtitel, daarna (<h2> )voor secties, daaronder (<h3>) voor subsecties, enzovoort, zonder niveaus over te slaan. Zo kun je met screenreaders snel door de structuur van de pagina navigeren, net als een inhoudsopgave.
+2. Heading elementen zijn (h1 t/m h6) gebruikt om koppen en subkoppen aan te geven. Ze horen "genest" te worden: eerst één (h1) als hoofdtitel, daarna (h2) voor secties, daaronder (h3) voor subsecties, enzovoort, zonder niveaus over te slaan. Zo kun je met screenreaders snel door de structuur van de pagina navigeren, net als een inhoudsopgave.
 
 3. Vroeger (op de middelbare school) drukte ik eigenlijk meteen op accepteer alles, omdat ik geen idee had wat cookies deden. Tegenwoordig heb ik veel meer over geleerd en zoek ik eigenlijk meteen naar de weiger alles knop. Zelfs als ik er wat meer moeite voor moet doen door alle voorkeuren weg te klikken.
 
