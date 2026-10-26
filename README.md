@@ -96,7 +96,8 @@ Check-out
 
 Bi-weekly geek 2
 
-<img src="./afbeeldingen learning log/Bi-Weekly-Geek-vragen.pdf"/>
+<img src="./afbeeldingen learning log/9abad890-d9a6-4268-ade3-eda6484c3bf1.jpg"/>
+<img src="./afbeeldingen learning log/a0af8954-1a62-4c04-952c-bdc5b1018b72.JPG"/>
 
 Check-out
 
@@ -225,10 +226,6 @@ Check-out
 3. Ik zou van de crazy 8 de eerste (links boven) uit willen werken. Ik denk namelijk dat dit een design is dat bruikbaar is voor laptop, maar ook nog goed eruit ziet op telefoon formaat. Daarnaast geeft het een beetje de sfeer van een galerij.
 
    ![alt text](image-1.png)
-
-### 8 sept - deepdive Light & Dark theme (Vasilis)
-
-![alt text](image.png)
 
 ### 7 sept - [Werkgroep 1]
 
