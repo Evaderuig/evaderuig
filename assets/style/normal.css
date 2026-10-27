@@ -38,6 +38,16 @@ html {
   --whitespace-xs: 0.5em;
 }
 
+/* Uit de deep dive heb ik geleerd dat je custom properties bovenaan je CSS zet, in de html-selector, 
+zodat alle elementen op de pagina ze kunnen gebruiken. De naam begint altijd met -- en je gebruikt ze met var().
+Ik heb mijn kleuren en witruimte op die manier vastgelegd. Voor de kleuren heb ik --color-dark, --color-light en --color-Grey,
+en voor de witruimte --whitespace, --whitespace-s en --whitespace-xs. Ook mijn schaduw en rand van de bordjes staan erin.
+Ik heb logische namen gekozen, zoals --color-background en --color-text, zodat je aan de naam kunt zien waarvoor ze dienen.
+Het handigste vond ik dat ik mijn light en dark theme hiermee kon maken. 
+Met light-dark() geef ik elke kleur een waarde voor licht en voor donker, bijvoorbeeld --color-background. 
+Als bezoeker kies je zelf in de navigatie tussen licht en donker, en dan verandert alles tegelijk,
+zonder dat ik de kleuren op elke plek apart hoef aan te passen. */
+
 /**************************
 * MARK: Algemene Styling
 **************************/
@@ -101,6 +111,17 @@ body {
   }
 }
 
+/* Uit de deep dive heb ik geleerd dat je voor grid een ouder en kinderen nodig hebt: 
+de ouder krijgt display: grid en de kinderen vullen de cellen. Bij mij is de body de grid-ouder. 
+Op mobiel staat alles onder elkaar in één kolom. Op een groot scherm gebruik ik drie kolommen (1fr minmax(0, 35em) 1fr),
+met de foto in het midden en het bordje met uitleg ernaast, zoals in een galerij. 
+Die plekken heb ik benoemd met grid-template-areas, 
+zodat ik niet met lijnnummers hoef te rekenen en in mijn CSS direct kan zien waar iets staat. 
+Met gap en display: contents op de <figure> kon ik de afbeelding en het bordje apart in het grid zetten. 
+Ook heb ik een grid in een grid gebruikt: de <header> is zelf ook een grid, met de foto links en de tekst rechts.
+Het lastigste vond ik om te onthouden dat je grid-lijnen moet tellen en niet de kolommen. Daarom werkte het met namen voor mij beter.
+*/
+
 button,
 summary {
   cursor: pointer;
@@ -120,6 +141,13 @@ a:hover {
 a:focus {
   color: var(--color-Grey);
   outline: 0.2em dashed aliceblue;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 0.2em solid var(--color-text);
+  outline-offset: 0.2em;
 }
 
 label:has([type="checkbox"]) {
@@ -456,3 +484,16 @@ dialog a {
   color: inherit;
   text-decoration: underline;
 }
+
+/* Uit de deep dive heb ik geleerd hoe je een <dialog> maakt: een knop om hem te openen 
+en een dialog met daarin een formulier met de informatie en een knop om hem te sluiten.
+Je koppelt de knop aan de dialog met commandfor, dat verwijst naar het id van de dialog,
+en met command="show-modal" geef je aan dat hij moet openen. Ik heb dit twee keer gebruikt.
+De eerste is mijn privacymelding, met een knop “Privacy” die de dialog opent.
+De tweede is het menu op een smal scherm, dat opent met de ☰-knop.
+Sluiten kan op meerdere manieren. De bezoeker kan altijd op Escape drukken,
+dat regelt de browser zelf. In mijn privacymelding zit een <form method="dialog"> met de knop “Begrepen”. 
+Door method="dialog" sluit de dialog en wordt de pagina niet opnieuw geladen.
+In mijn menu heb ik een aparte sluitknop met command="close", en met closedby="any" sluit het menu ook als je ernaast klikt. 
+Het handige is dat ik hiervoor geen JavaScript nodig heb. Ik heb de dialogs daarna met CSS vormgegeven,
+met mijn eigen kleuren en randen, zodat ze passen bij mijn light en dark theme. */
