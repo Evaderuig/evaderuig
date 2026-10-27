@@ -7,7 +7,11 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 # Reflectie op het blok:
 
 Ik heb in dit blok ontzettend veel geleerd, vooral over code. Het meeste was nieuw voor me, dus het ging af en toe best snel en soms moest ik even zoeken, maar ik merkte dat ik het eigenlijk heel leuk vind om te doen. Door dingen gewoon uit te proberen en te bouwen kwam ik erachter wat werkte. Als ik mijn website nu opnieuw zou moeten maken, denk ik dat het een stuk sneller zou gaan, omdat ik nu veel beter snap hoe de onderdelen samenwerken.
+
 Ik ben redelijk tevreden met mijn website. Als ik nu naar de laatste versie kijk, snap ik de feedback die ik onderweg heb gekregen beter en vind ik hem ook echt waardevol. In het begin kwam het idee van een galerij nog niet goed over, ook al was het in mijn hoofd duidelijk. Door de feedback heb ik de indeling en de stijl aangepast, en nu lijkt mijn website veel meer op een galerij. Dat is precies wat ik wilde laten zien.
+
+Ook denk ik dat ik uiteindelijk stappen heb gemaakt met mijn songtekst. In het begin had ik wat moeite om hem 'lelijk' te maken zoals Diederik en Sanne zeiden, maar ik denk dat het uiteindelijk na aanpassing maken met de feedback wel beter gelukt is.
+
 Wat ik hieruit meeneem, is dat feedback me echt verder helpt en dat een idee dat voor mij duidelijk is, dat voor een bezoeker nog niet hoeft te zijn.
 
 # 26 oct [Expo]
@@ -25,9 +29,9 @@ Wat ik hieruit meeneem: de basis staat goed. Ik ga nog testen hoe mijn website w
 <img src="./afbeeldingen learning log/Webby-.jpeg"/>
 
 Feedback expo:
-Tijdens de expo hebben mijn medestudenten feedback op mijn digital garden achtergelaten met stickers en briefjes. Ik werd blij van de reacties op het ontwerp. Ze vonden de site rustig, met de focus op mijn eigen werk, en zeiden dat mijn tekeningen er mooi uitkomen. Iemand noemde het een mooi portfolio. Dat is precies wat ik wilde bereiken met het galerij-idee, wat in eerdere feedback nog niet duidelijk genoeg naar voren kwam. Ze vonden de hiërarchie van mijn grid leuk en onverwacht, en ze vonden het fijn dat ik verschillende grids op één pagina gebruik. Eén medestudent zei dat het handig is dat ik mijn proces stap voor stap laat zien. Er werd ook gezegd dat mijn site goed werkt op een klein scherm, met een menu dat prettig te gebruiken is.
+Tijdens de expo hebben mijn medestudenten feedback op mijn digital garden achtergelaten met stickers en kleine tekstjes. Ik werd blij van de reacties op het ontwerp. Ze vonden de site rustig, met de focus op mijn eigen werk, en zeiden dat mijn tekeningen er mooi uitkomen. Dat is wat mij eerst nog niet helemaal gelukt was, dus ik ben blij dat het nu wel goed overkomt. Dat is precies wat ik wilde bereiken met het galerij-idee. Ze vonden de hiërarchie van mijn grid leuk en onverwacht, en ze vonden het fijn dat ik verschillende grids op één pagina gebruik. Eén medestudent zei dat het handig is dat ik mijn proces stap voor stap laat zien. Er werd ook gezegd dat mijn site goed werkt op een klein scherm, met een menu dat prettig te gebruiken is.
 
-Ik leer hieruit dat mijn keuzes werken: veel wit, de tekeningen centraal en een grid met verschillende groottes. Er stond geen kritiek op de briefjes, dus als ik nog iets wil verbeteren, moet ik zelf kijken wat dat is. Dat wordt voor mij als het nog lukt om te kijken of ik een decline optie kan maken in de cookie pop-up.
+Ik leer hieruit dat mijn keuzes nu uiteindelijk wel werken: veel wit, de tekeningen centraal en een grid met verschillende groottes. Er stond geen kritiek op de briefjes, dus als ik nog iets wil verbeteren, moet ik zelf kijken wat dat is. Dat wordt voor mij als het nog lukt om te kijken of ik een decline optie kan maken in de cookie pop-up.
 <img src="./afbeeldingen learning log/Feedbackexpo.jpeg"/>
 
 # 23 oct [Werkgroep 18]
@@ -38,6 +42,8 @@ Schetsen na feedback:
 Deze schets heb ik gemaakt na de feedback.
 Bovenaan staat de titel “In de Galerij” met daaronder een blokje tekst. Daaronder hangen de portretten groot en los van elkaar, zoals schilderijen aan een muur, met genoeg wit eromheen. Ze hebben niet allemaal precies dezelfde grootte. Boven elk portret zitten twee lampjes, zodat het lijkt alsof er licht op de tekening valt. Naast elk portret zit een klein bordje met een paar regels tekst, net als in een museum waar naast een schilderij een bordje hangt met uitleg. Zo staat de tekst niet meer los van de tekening, maar hoort hij erbij.
 Ik verwacht dat de website hierdoor meer op een galerij gaat lijken, omdat de portretten de aandacht krijgen en de tekst er rustig naast staat.
+
+- Daarnaast heb ik ook de schilderijen aangepast na de feedback. Ik heb ze bijgesneden en recht getrokken en bij elk schilderij een lijst erom gemaakt. Zo hoop ik dat het ook meer op een galerij gaat lijken.
 
 feedback:
 De feedback die ik van Diederik gekregen heb is dat het idee goed is van de galerij, maar dat het nog steeds niet helemaal naar voren komt. Dus ik moet gaan kijken hoe ik het nog meer op een galerij kan laten lijken. Daarnaast zou het het zijn als ik voor mijn cookies pop-up ook een decline optie maak met dat je naar een andere pagina gaat, of je delen van mijn pagina niet meer kan zien, etc. Mijn songtekst was wel redelijk goed. De twee kolommen zijn alleen nog wat statisch. Ik kan bijvoorbeeld de kolommen gestaffeld plaatsen. Ik kan ook nog wat meer doen met de poppetjes die ik heb getekend.
@@ -120,6 +126,8 @@ Restrospective:
 <img src="./afbeeldingen learning log/retrospect2-1.png"/>
 <img src="./afbeeldingen learning log/Retrospect2-2.png"/>
 <img src="./afbeeldingen learning log/metafoor2.png"/>
+
+Mijn metafoor voor de tweede sprint is een trein die stilstaat door een storing. Ik was grotendeels ziek, dus de trein staat al anderhalve week stil. In de laatste dagen ben ik weer beter, dus sinds vandaag komt de trein weer een beetje op gang. Dat zie je rechts op de tekening, bij het sein.
 
 ### 30 sept [Werkgroep 11]
 
