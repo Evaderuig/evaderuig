@@ -6,7 +6,7 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 # Reflectie op het blok:
 
-Ik heb in dit blok ontzettend veel geleerd, vooral over code. Het meeste was nieuw voor me, dus het ging af en toe best snel en soms moest ik even zoeken, maar ik merkte dat ik het eigenlijk heel leuk vind om te doen. Door dingen gewoon uit te proberen en te bouwen kwam ik erachter wat werkte. Als ik mijn website nu opnieuw zou moeten maken, denk ik dat het een stuk sneller zou gaan, omdat ik nu veel beter snap hoe de onderdelen samenwerken.
+Ik heb in dit blok ontzettend veel geleerd, vooral over code. Het meeste was nieuw voor me, dus het ging af en toe best snel en soms moest ik even zoeken, maar ik merkte dat ik het eigenlijk heel leuk vind om te doen. Door dingen gewoon uit te proberen, de deep dives te doen en te bouwen kwam ik erachter wat werkte. Als ik mijn website nu opnieuw zou moeten maken denk ik dat het een stuk sneller zou gaan, omdat ik nu veel beter snap hoe de onderdelen samenwerken.
 
 Ik ben redelijk tevreden met mijn website. Als ik nu naar de laatste versie kijk, snap ik de feedback die ik onderweg heb gekregen beter en vind ik hem ook echt waardevol. In het begin kwam het idee van een galerij nog niet goed over, ook al was het in mijn hoofd duidelijk. Door de feedback heb ik de indeling en de stijl aangepast, en nu lijkt mijn website veel meer op een galerij. Dat is precies wat ik wilde laten zien.
 
