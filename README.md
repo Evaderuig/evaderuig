@@ -55,7 +55,7 @@ Retrospective:
 <img src="./afbeeldingen learning log/retrospect3-2.png"/>
 <img src="./afbeeldingen learning log/metafoor3.png"/>
 
-Voor mijn metafoor heb ik een tekening gemaakt van mezelf als een stil figuur, terwijl de wereld om me heen in een waas voorbijrent. De titel is Voorbij voor ik het weet. Het beeld laat het gevoel zien dat alles tegelijk komt en snel gaat: opdrachten, deadlines en verwachtingen rennen langs me heen voordat ik er grip op heb. Ik heb de letters in de titel steeds kleiner en dunner gemaakt, zodat ook de tekst vervaagt. Alleen het woord “ik” staat er scherp en dik. Dat gevoel kwam vooral doordat ik door mijn ziekte achterliep, waardoor alles tegelijk op me af kwam.
+Voor mijn metafoor heb ik een tekening gemaakt van mezelf als een stil figuur, terwijl de wereld om me heen in een waas voorbijrent. De titel is Voorbij voor ik het weet. Het beeld laat het gevoel zien dat alles tegelijk komt en snel gaat: opdrachten, deadlines en verwachtingen rennen langs me heen voordat ik er grip op heb. Ik heb de letters in de titel steeds kleiner en dunner gemaakt, zodat ook de tekst vervaagt. Alleen het woord ik staat er scherp en dik. Dat gevoel kwam vooral doordat ik door mijn ziekte achterliep, waardoor alles tegelijk op me af kwam.
 
 De titel past ook op een positieve manier bij het blok. Het ging namelijk ook snel voorbij, omdat ik veel bezig was met code en er veel nieuw was om te leren. Ik heb in deze weken veel geleerd en veel met code gewerkt, en dat vond ik uiteindelijk vooral leuk.
 
@@ -129,7 +129,7 @@ check-out
 - Modular scale: lettergroottes die met een vaste verhouding groeien.
 - Movable type: losse, herbruikbare letters van lood (Gutenberg).
 - Focuspunt: het element dat als eerste de aandacht trekt.
-- Vijf soorten contrast: grootte, gewicht, stijl/vorm, kleur, richting/positie (check de lijst in je artikel, die kan afwijken).
+- Vijf soorten contrast: grootte, gewicht, stijl/vorm, kleur, richting/positie.
 - Spatial tension: spanning door afstand, nabijheid en wit tussen elementen.
 
 2. Ongeveer 60 tekens per regel. Dan lees je lekker door: bij kortere regels moet je steeds naar een nieuwe regel springen, en bij langere regels raak je de weg kwijt.
@@ -264,9 +264,9 @@ Mijn metafoor voor de eerste sprint is een skiër op een afdaling. Ik begin net 
 ### 16 sept [Werkgroep 5]
 
 1.  3 principes
-    Nabijheid – Dingen die bij elkaar horen, staan dicht bij elkaar.
-    Gelijkenis – Elementen met dezelfde kleur of vorm voelen alsof ze bij elkaar horen.
-    Figuur en achtergrond – Het belangrijkste onderdeel valt op tegen de achtergrond.
+    Nabijheid: Dingen die bij elkaar horen, staan dicht bij elkaar.
+    Gelijkenis: Elementen met dezelfde kleur of vorm voelen alsof ze bij elkaar horen.
+    Figuur en achtergrond: Het belangrijkste onderdeel valt op tegen de achtergrond.
 
 2.  Een grid geeft je houvast en zorgt dat alles netjes bij elkaar past. Toch kun je binnen dat grid spelen met de grootte en plek van afbeeldingen. Het ontwerp blijft daardoor overzichtelijk, maar niet saai.
 
