@@ -4,7 +4,40 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+# Reflectie op het blok:
+
+Ik heb in dit blok ontzettend veel geleerd, vooral over code. Het meeste was nieuw voor me, dus het ging af en toe best snel en soms moest ik even zoeken, maar ik merkte dat ik het eigenlijk heel leuk vind om te doen. Door dingen gewoon uit te proberen en te bouwen kwam ik erachter wat werkte. Als ik mijn website nu opnieuw zou moeten maken, denk ik dat het een stuk sneller zou gaan, omdat ik nu veel beter snap hoe de onderdelen samenwerken.
+Ik ben redelijk tevreden met mijn website. Als ik nu naar de laatste versie kijk, snap ik de feedback die ik onderweg heb gekregen beter en vind ik hem ook echt waardevol. In het begin kwam het idee van een galerij nog niet goed over, ook al was het in mijn hoofd duidelijk. Door de feedback heb ik de indeling en de stijl aangepast, en nu lijkt mijn website veel meer op een galerij. Dat is precies wat ik wilde laten zien.
+Wat ik hieruit meeneem, is dat feedback me echt verder helpt en dat een idee dat voor mij duidelijk is, dat voor een bezoeker nog niet hoeft te zijn.
+
+# 26 oct [Expo]
+
+Learning Log compleet:
+
+Samen met medestudenten heb ik gekeken hoe compleet mijn learning log is. Bijna alle opdrachten staan erin en de visual thinking-opdrachten zien er goed uit, maar er staat nog geen uitleg bij. Alleen de eerste metafoor-opdracht mist nog. Mijn check-outs staan erin, maar mijn eigen proces mag duidelijker in beeld komen. Mijn schetsen zijn duidelijk, maar bij een aantal ontbreekt nog de omschrijving. Het geheel is netjes, met een duidelijke datum en titel bij elk stuk. Mijn bronnen moet ik nog vermelden, bijvoorbeeld bij mijn CSS-code. Dat ga ik nu aanvullen.
+<img src="./afbeeldingen learning log/Learninglogcompleet-.jpeg"/>
+
+Webby?:
+Ik vond het fijn om nog even met een medestudent zo nauwkeurig door mijn website te lopen. We hebben hem getest op een telefoon en daar bleef de tekst goed leesbaar, ook de light en dark versie werkte. De knoppen waren groot genoeg om met je vingers te bedienen en de paragrafen hebben een goed formaat. Over de interactie zeiden we dat de hover goed werkt en dat de knoppen doen wat ze moeten doen. Ik gebruik weinig animaties, maar de animaties in de songtekst werken goed. De knop om terug te gaan van de songtekst naar de hoofdpagina is duidelijk, en bij het scrollen blijft duidelijk dat je op dezelfde pagina zit.
+Voor toegankelijkheid zagen we dat het contrast goed is en dat de hiërarchie duidelijk is, omdat de twee lettertypes laten zien wat de titels zijn. Met een screenreader was de tekst redelijk goed te lezen. Ik moet nog even kijken hoe het toetsenbord werkt zonder screenreader. Mijn cookie-melding is duidelijk: je wordt gewaarschuwd over data van GitHub en je kunt naar het privacybeleid van GitHub. De pagina is ook zonder iets te accepteren te gebruiken.
+Verder zagen we dat ik geen gradiënten gebruik en dat de layout en typografie goed bij mijn concept en onderwerp passen. Als tip bedachten we dat ik misschien de kleur van de blokken kan veranderen, bijvoorbeeld naar bruin. Ik vond het fijn om te zien dat het idee van een kunstgalerij nu beter overkomt en dat de website duidelijk is. Dat was in eerdere feedback nog een probleem.
+Wat ik hieruit meeneem: de basis staat goed. Ik ga nog testen hoe mijn website werkt met alleen een toetsenbord en ik kijk of een andere kleur voor de blokken beter werkt.
+<img src="./afbeeldingen learning log/Webby-.jpeg"/>
+
+Feedback expo:
+Tijdens de expo hebben mijn medestudenten feedback op mijn digital garden achtergelaten met stickers en briefjes. Ik werd blij van de reacties op het ontwerp. Ze vonden de site rustig, met de focus op mijn eigen werk, en zeiden dat mijn tekeningen er mooi uitkomen. Iemand noemde het een mooi portfolio. Dat is precies wat ik wilde bereiken met het galerij-idee, wat in eerdere feedback nog niet duidelijk genoeg naar voren kwam. Ze vonden de hiërarchie van mijn grid leuk en onverwacht, en ze vonden het fijn dat ik verschillende grids op één pagina gebruik. Eén medestudent zei dat het handig is dat ik mijn proces stap voor stap laat zien. Er werd ook gezegd dat mijn site goed werkt op een klein scherm, met een menu dat prettig te gebruiken is.
+
+Ik leer hieruit dat mijn keuzes werken: veel wit, de tekeningen centraal en een grid met verschillende groottes. Er stond geen kritiek op de briefjes, dus als ik nog iets wil verbeteren, moet ik zelf kijken wat dat is. Dat wordt voor mij als het nog lukt om te kijken of ik een decline optie kan maken in de cookie pop-up.
+<img src="./afbeeldingen learning log/Feedbackexpo.jpeg"/>
+
 # 23 oct [Werkgroep 18]
+
+Schetsen na feedback:
+<img src="./afbeeldingen learning log/Schetslaatstelayout.jpeg"/>
+
+Deze schets heb ik gemaakt na de feedback.
+Bovenaan staat de titel “In de Galerij” met daaronder een blokje tekst. Daaronder hangen de portretten groot en los van elkaar, zoals schilderijen aan een muur, met genoeg wit eromheen. Ze hebben niet allemaal precies dezelfde grootte. Boven elk portret zitten twee lampjes, zodat het lijkt alsof er licht op de tekening valt. Naast elk portret zit een klein bordje met een paar regels tekst, net als in een museum waar naast een schilderij een bordje hangt met uitleg. Zo staat de tekst niet meer los van de tekening, maar hoort hij erbij.
+Ik verwacht dat de website hierdoor meer op een galerij gaat lijken, omdat de portretten de aandacht krijgen en de tekst er rustig naast staat.
 
 feedback:
 De feedback die ik van Diederik gekregen heb is dat het idee goed is van de galerij, maar dat het nog steeds niet helemaal naar voren komt. Dus ik moet gaan kijken hoe ik het nog meer op een galerij kan laten lijken. Daarnaast zou het het zijn als ik voor mijn cookies pop-up ook een decline optie maak met dat je naar een andere pagina gaat, of je delen van mijn pagina niet meer kan zien, etc. Mijn songtekst was wel redelijk goed. De twee kolommen zijn alleen nog wat statisch. Ik kan bijvoorbeeld de kolommen gestaffeld plaatsen. Ik kan ook nog wat meer doen met de poppetjes die ik heb getekend.
@@ -14,9 +47,15 @@ Retrospective:
 <img src="./afbeeldingen learning log/retrospect3-2.png"/>
 <img src="./afbeeldingen learning log/metafoor3.png"/>
 
+Voor mijn metafoor heb ik een tekening gemaakt van mezelf als een stil figuur, terwijl de wereld om me heen in een waas voorbijrent. De titel is Voorbij voor ik het weet. Het beeld laat het gevoel zien dat alles tegelijk komt en snel gaat: opdrachten, deadlines en verwachtingen rennen langs me heen voordat ik er grip op heb. Ik heb de letters in de titel steeds kleiner en dunner gemaakt, zodat ook de tekst vervaagt. Alleen het woord “ik” staat er scherp en dik. Dat gevoel kwam vooral doordat ik door mijn ziekte achterliep, waardoor alles tegelijk op me af kwam.
+
+De titel past ook op een positieve manier bij het blok. Het ging namelijk ook snel voorbij, omdat ik veel bezig was met code en er veel nieuw was om te leren. Ik heb in deze weken veel geleerd en veel met code gewerkt, en dat vond ik uiteindelijk vooral leuk.
+
 # 19 oct [Werkgroep 16]
 
 <img src="./afbeeldingen learning log/webbyformulier.png"/>
+
+Ik ben nog niet helemaal tevreden met mijn ontwerp. Ik wil nog meer toevoegen en dingen afmaken. Zo wil ik de website interactiever en interessanter maken, bijvoorbeeld door de portretten zo neer te zetten alsof het licht erop valt en ze aan een muur hangen. Ook wil ik nog aanpassingen maken aan mijn songtekst, zodat hij meer lijkt op het originele nummer.
 
 ## 09 oct [Werkgroep 15]
 
@@ -88,7 +127,6 @@ Check-out
 
 1. Waar staan WCAG en A11y voor?
    WCAG is Web Content Accessibility Guidelines, de internationale richtlijnen voor toegankelijke websites. A11y is een afkorting van accessibility: de a, dan 11 letters, en dan de y.
-   De andere vragen gaan over jouw ervaring, dus daar kan ik alleen een opzet voor geven. Vul in wat bij jou klopt.
 
 2. Moet de test nog doen...
 
@@ -125,8 +163,12 @@ Check-out
 
 2. De enige echte fout was een afbeelding met spaties in de bestandsnaam, die ik heb aangepast. De info-meldingen gingen over een overbodige slash aan het eind van void elements zoals meta, link, input en img. Die doet niets, dus ik kan hem weghalen.
 
+HTML-validatie:
 <img src="./afbeeldingen learning log/html-validatie-1.png"/>
 <img src="./afbeeldingen learning log/html-validatie-2.png"/>
+
+Ik heb mijn HTML laten controleren met de validator. De meeste meldingen zijn alleen info: de schuine streep aan het eind van sommige elementen heeft geen effect. Dat kan ik weghalen, maar het is geen fout.
+Er is wel een echte error. De naam van één afbeelding is niet goed, want er zit een spatie in en dat is niet toegestaan.
 
 ### 23 sept [Werkgroep 8]
 
@@ -163,9 +205,10 @@ Check-out
 
 Na de feedback van vrijdag heb ik een aantal layout schetsen gemaakt:
 <img src="./afbeeldingen learning log/Optie4.png"/>
-<img src="./afbeeldingen learning log/Ontwerp zonder titel.png"/>
 <img src="./afbeeldingen learning log/optiestelefoon1.png"/>
 <img src="./afbeeldingen learning log/optiestelefoon2.png"/>
+
+De feedback was dat mijn website nog niet echt op een galerij leek. Daarom heb ik schetsen gemaakt om te kijken wat werkt voor het galerij-idee.
 
 ### 18 sept [Werkgroep 6]
 
@@ -181,7 +224,13 @@ Ik heb schetsen gemaakt voor de layout op laptop en telefoon en daarna alles in 
 Evalueren:
 Wat wilde ik weten? Of mijn layout het galerij-idee overbrengt. Wat deed ik? Ik liet mijn eerste versie zien in het feedbackgesprek. Resultaat? De code was goed en de stijl paste bij mijn onderwerp, maar de schilderijen moesten echt los op de pagina staan. Wat weet ik nu (niet)? Ik weet dat de indeling net zo belangrijk is als de stijl, maar ik weet nog niet of het galerij-gevoel ook goed werkt op een telefoon. Ik moet nog checken: HTML-validatie, toegankelijkheid (alt-teksten, contrast, toetsenbord), light/dark mode en prefers-reduced-motion.
 
+Retrospect 1:
 ![alt text](image-3.png)
+<img src="./afbeeldingen learning log/Retrospect1-1.png"/>
+<img src="./afbeeldingen learning log/Retrospect1-2.png"/>
+<img src="./afbeeldingen learning log/Metafoor1.jpeg"/>
+
+Mijn metafoor voor de eerste sprint is een skiër op een afdaling. Ik begin net aan het tweede jaar en ben de HTML van vorig jaar een beetje vergeten. Bij de start is het daarom rustig en zonder obstakels. Aan het einde van de eerste weken komt er steeds meer informatie bij. Op de tekening zie je dat aan de bomen onderaan, die steeds dichter op elkaar staan. Bij de finish sneeuwt het, is er veel te doen en zijn er veel obstakels.
 
 ### 16 sept [Werkgroep 5]
 
@@ -201,6 +250,8 @@ Bi-weekly geek 1
 <img src="./afbeeldingen learning log/biweekly1.png"/>
 <img src="./afbeeldingen learning log/biweeklyvragen.png"/>
 
+In een groepje met Judith, Seb en Massimo hebben we deelvragen bedacht bij de hoofdvraag Moeten kritieke internetdiensten commerciële bedrijven zijn? Daarna hebben we onderzoeksmethodes gekozen voor de deelvragen van een ander groepje, bijvoorbeeld een literature study of een interview. Ik leer hierdoor dat je een grote vraag eerst opdeelt in kleinere vragen, en dat je de onderzoeksmethode kiest op basis van wat je wilt weten.
+
 Check-out
 
 1. Een website wordt lelijk als hij niet responsive is, bijvoorbeeld dat alles verspringt op een mobieltje. Wat je eraan kunt doen is zorgen dat je de code ook test in mobiel formaat en aanpassingen maakt, zodat er niks verspringt. Daarnaast is een rommelige indeling niet mooi. Dit zorgt er namelijk voor dat de website niet toegangkelijk is voor bezoekers. Wat je eraan kan doen is met een duidelijke visuele hiërarchie werken. Als laatste zijn te veel animaties niet mooi. Animaties zijn leuk en interessant voor de website, maar wel met mate. Te veel animaties leidt af van de inhoud van de website. Gebruik animaties alleen wanneer ze iets toevoegen.
@@ -216,6 +267,14 @@ Wat ik uit de voorbereiding haal is dat de samenleving ontzettend afhankelijk is
 De feedback die ik vandaag van Justus heb gekregen is dat het idee van portret tekenen heel leuk en persoonlijk is. Ik moet nu gaan bedenken hoe ik het ga uitwerken in html. Hij gaf mij bijvoorbeeld het idee om de achtergrond van de webpagina een soort werkplek te maken, dat je de potloden kan zien liggen en dan de tekeningen erin plaatsen. Maar ik moet er verder nog goed over nadenken en gewoon gaan proberen.
 
 ### 10 sept - [Werkgroep 2]
+
+Onderzoek:
+
+<img src="./afbeeldingen learning log/7af49c55d310bb5769e819c39d8996a8.jpg"/>
+<img src="./afbeeldingen learning log/c8cad9e8ffdebf6d9563d941b4aac616.jpg"/>
+<img src="./afbeeldingen learning log/Artist Website Homepage Designed on Squarespace.jpg"/>
+
+Ik heb layouts van kunstgalerijen opgezocht om een sfeerimpressie te krijgen en inspiratie op te doen. Ik wil zien hoe kunstwerken in een galerij worden gepresenteerd, zodat ik dat kan vertalen naar mijn eigen website met portretten. Ik let vooral op de indeling, de witruimte en hoe de kunstwerken de aandacht krijgen.
 
 Check-out
 
