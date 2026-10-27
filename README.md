@@ -65,6 +65,22 @@ Ik ben nog niet helemaal tevreden met mijn ontwerp. Ik wil nog meer toevoegen en
 
 ## 09 oct [Werkgroep 15]
 
+Aanpassingen songtekst na feedback:
+
+Na de feedback heb ik poppetjes getekent die ik ga gebruiken in plaats van de YMCA letter. Hiervoor heb ik de echte band leden geprobeerd na te tekenen.
+
+<img src="./Songtekst/afbeeldingen YMCA/Y.png"/>
+<img src="./Songtekst/afbeeldingen YMCA/M.png"/>
+<img src="./Songtekst/afbeeldingen YMCA/C.png"/>
+<img src="./Songtekst/afbeeldingen YMCA/A.png"/>
+
+Daarnaast heb ik foto's van de band gebruikt om een kleuren thema te maken:
+<img src="./the-village-people-David-Hodo-Felipe-Rose-Victor-Willis-Alex-Briley-Glenn-Hughes-Randy-Jones-011525-8864eed3c92141a58ad710955ef66fbb.jpg"/>
+<img src="./_108238323_9c861ecd-6b09-4874-bfa1-4600a39faa83.jpg"/>
+<img src="./ab67616d0000b273c4803b886d5ed9470db36a7a.jpeg"/>
+
+Ik ben uiteindelijk dus gegaan voor een combinatie van rood, blauw en roze.
+
 check-out
 
 1.  Welke variabelen van Seraphs gebruik ik?
@@ -213,6 +229,9 @@ Check-out
 
 Na de feedback van vrijdag heb ik een aantal layout schetsen gemaakt:
 <img src="./afbeeldingen learning log/Optie4.png"/>
+<img src="./afbeeldingen learning log/optie1.png"/>
+<img src="./afbeeldingen learning log/optie2.png"/>
+<img src="./afbeeldingen learning log/optie3.png"/>
 <img src="./afbeeldingen learning log/optiestelefoon1.png"/>
 <img src="./afbeeldingen learning log/optiestelefoon2.png"/>
 
